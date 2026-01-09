@@ -127,11 +127,12 @@ o :
 (efecto) | Únicamente si se cumple (condición específica Taxonómica - Momentánea) se podrá en X% de probabilidad.
 Además se puede usar Mientras y Hasta, para definir tiempo o condición.
 
-Para modificaciones auto aplicadas no se usa la conjugación Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) | Probabilidad y/o Condición, es reemplazada con:
-Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valores | Probabilidad y/o Condición 
+Para modificaciones auto aplicadas no se usa la conjugación Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) | Probabilidad | Condición, 
+es reemplazada con:
+Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valores | Probabilidad | Condición 
 
 Para modificaciones de atributos propios o ajenos, usar:
-Atributo (a cambiar) | (+ / -) | Valores | Probabilidad y/o Condición 
+Atributo (a cambiar) | (+ / -) | Valores | Probabilidad | Condición 
 
 Todos, la forma base y derivados, pueden o no llevar condición.
 
@@ -213,6 +214,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
