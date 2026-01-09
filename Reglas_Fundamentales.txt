@@ -1,0 +1,510 @@
+Este documento contiene reglas fundamentales para despejar dudas sobre I.A.
+___________________________________________________________________________________
+
+UNIDADES
+  - LAS HABILIDADES
+	Las habilidades son los efectos que ocurren bajo condiciones específicas que afectan al entorno de la criatura o a la criatura misma. La distinción entre
+	habilidades Activas y Pasivas es fundamental: las Pasivas se encuentran siempre presentes, esperando que se cumplan sus condiciones de activación o, en su
+	defecto, de desactivación según lo indicado en la habilidad, mientras que las Activas requieren la intervención directa del jugador, quien debe decidir 
+	cuándo emplearlas, aprovecharlas o gestionarlas según la situación en campo.
+
+  - LOS ATAQUES
+	Un ataque puede representar un método de caza, defensa, comportamiento o respuesta natural del organismo, adaptado al sistema de RTS. El número de ataques 
+	depende de la rareza y tipo de unidad: los obreros suelen poseer un solo ataque; los soldados inferiores a Legendario y aquellos no tácticos pueden tener
+	hasta dos; los soldados superiores a Legendario disponen casi siempre de dos ataques normales y un tercero adicional; los obreros de rareza superior a Ultra
+	Épico suelen tener dos ataques; los tácticos siempre poseen un mínimo de dos ataques, llegando a tres en rarezas iguales o superiores a Épico.
+
+	Los ataques pueden adoptar nombres genéricos para facilitar la comprensión del jugador y reducir nomenclaturas innecesarias. Esta reutilización permite que
+	distintas especies compartan un mismo nombre de ataque si su función es equivalente, variando únicamente en daño, duración de animación y estadísticas
+	propias de cada criatura. Las descripciones pueden cambiar, pero si el ataque cumple la misma función, mantiene el mismo nombre.
+
+	Los ataques tácticos representan interacciones especiales entre unidades, pudiendo incluir actitudes, emboscadas, lanzamientos, desplazamientos o efectos
+	directos. Siempre poseen tiempo de refresco y animación correspondiente. Los ataques exclusivos de unidades Legendarias o Míticas (tercer ataque) no requieren
+	ser altamente innovadores o extremadamente poderosos; representan simplemente la variedad natural de defensas o mecanismos de combate propios de su rango.
+
+	Los ataques pueden aplicar efectos a otras criaturas cuando así lo indique su descripción. La reutilización estructural de ataques y nombres forma parte del
+	sistema general de simplificación y reconocimiento inmediato para el jugador.
+
+	Existen 2 Tipos de ataques:
+		- Directo: Representa un ataque cercano de cuyo rango no debe exceder lo visible en la respectiva animación. 
+		- A distancia: Representa un ataque que se es dado a una distancia corta o larga. Tiene un punto ciego realizado en la animación.
+	
+	Todo ataque debe tener un Decorador que acompaña al Tipo de Ataque.
+	
+	Los decoradores van entre paréntesis acompañando al Tipo de Ataque:
+		- Individual
+		- Área
+
+	Los tipos de ataques pueden ser usados como condición.
+	Por naturaleza, ningún efecto de combate o afinidad se basa en los tipos de ataque como condición, así que son exclusivos de los Efectos Especiales.
+	
+  - LOS EFECTOS Y AFINIDADES
+	Un efecto es una consecuencia aplicada por esta criatura hacia otra, entendida como un efecto de combate. Una afinidad es una capacidad propia o asignada
+	que opera sobre la unidad misma, conocida como efecto de afinidad.
+
+	Para que un efecto sea aplicable, debe estar mencionado explícitamente en el ataque. Las afinidades permanecen activas de forma constante y se activan bajo
+	las condiciones mencionadas en la descripción. Si una condición que activa una característica no coincide con la condición que ofrece la afinidad oficial, 
+	entonces no es una afinidad: debe ser tratada como efecto de un ataque o habilidad, y no debe aparecer en este apartado.
+
+	Un efecto solo se menciona en la carta si todos los ataques de la unidad son capaces de aplicarlo. Si solo un ataque puede producirlo, el efecto pertenece
+	exclusivamente a ese ataque y no a la criatura como tal, por lo que no debe ser incluido en el apartado de efectos generales.
+
+	No deben especificarse condiciones adicionales en este apartado. Cualquier requisito no inherente al efecto debe ser descrito en la habilidad o ataque que
+	lo provoque. Las afinidades que indiquen un objetivo deben mencionarlo de forma explícita según la estructura oficial.
+
+	Si se desea aplicar un efecto o afinidad bajo condiciones distintas a las mencionadas en la afinidad oficial, deben ser especificadas estrictamente en la
+	habilidad o ataque correspondiente.
+
+  - LA MOVILIDAD
+	La movilidad es mencionada de forma breve en la carta, sin exigir especial atención del jugador. Representa el método natural de desplazamiento de la 
+	criatura y puede funcionar como condición para ciertas habilidades.
+
+	Las unidades con movilidad aérea dejan de volar tras un tiempo determinado, representando la necesidad natural de posarse; solo una habilidad puede romper
+	esta regla. Las movilidades semiacuáticas permiten la sustitución temporal entre entornos, obligando posteriormente el retorno al entorno original.
+
+	Las movilidades actuales funcionan como sub rasgos y son:
+		Terrestre
+		Acuático
+		Semiacuático
+		Aéreo
+
+    - LA PRECISIÓN
+	La precisión se menciona de forma breve en la carta, sin exigir atención prioritaria del jugador. Representa el porcentaje de probabilidad general de
+	acertar un ataque, aplicándose por defecto a todos los ataques disponibles de la unidad. Esta probabilidad solo puede variar cuando un ataque indica
+	explícitamente alguna condición especial que modifique su precisión, o cuando una habilidad altera este valor de forma excepcional.
+	La Probabilidad de Acertar es una tirada separada de la Probabilidad de Evasión. Si el ataque falla la tirada de acierto, no hay evasión;
+	si ambas se cumplen, prevalece la evasión. La Confusión es un efecto único que redirige el fallo hacia el propio atacante.
+
+  - EL PESO NARRATIVO
+	Las criaturas no humanas no pueden poseer un peso narrativo único que dependa de valores interpretativos propios de culturas humanas, ni pueden ser
+	entendidas bajo los conceptos de “bondad” o “maldad”. En ausencia del sub rasgo “Héroe”, ninguna unidad puede tener una personalidad individual o un
+	comportamiento singular que la diferencie del resto de su misma carta.
+
+	No existirán cartas que representen casos aislados dentro de una especie, como “líderes”, “hijos únicos”, “supervivientes especiales” u otros elementos
+	asociados a narrativa individual. Toda unidad representa a su especie sin distinción personal.
+
+  - ATRIBUTOS
+	Toda unidad debe poseer puntos de vida, entendidos como la cantidad base que puede ser reducida por daño directo.
+	Toda unidad debe poseer defensa, que funciona como reducción efectiva ante el daño recibido; tanto la vida como la defensa pueden disminuir como efecto de 
+	ataques o condiciones.
+
+	La velocidad representa la velocidad promedio natural del organismo en metros por segundo, considerando desplazamientos típicos del entorno y excluyendo
+	cualquier modificación proveniente de habilidades. Este valor permite comparaciones estandarizadas entre unidades.
+	
+	Todo obrero debe poseer una lista de estructuras que puede construir, derivada del mazo del jugador y de la selección hecha antes de iniciar la partida.
+
+	Toda unidad debe poseer un tamaño. Este se clasifica en escalas generales para mención básica y escalas detalladas según rangos aproximados:
+	  Pequeños:
+	     XXS: ~ 0.5 cm
+	     XS: 0.5 cm ~ 5.0 cm
+	     S: 5.0 cm ~ 10.0 cm
+	  Medianos:
+	     MS: 0.1 m ~ 0.5 m
+	     M: 0.5 m ~ 1.0 m
+	     ML: 1.0 m ~ 2.0 m
+	  Grandes:
+	     L: 2.0 m ~ 3.0 m
+	     XL: 3.0 m ~ 6.0 m
+	     XXL: 6.0 m ~
+
+	Toda unidad debe poseer un coste asociado, el cual puede incluir Esencia, Conocimiento o Dinero según corresponda a la naturaleza de la carta.
+
+	Toda unidad debe otorgar un valor de Conocimiento al ser desplegada. Este valor puede ser fijo o proporcional a su vida máxima.
+
+	Toda unidad debe poseer un tiempo de despliegue, expresado en segundos, que representa el tiempo entre su selección desde la estructura hasta su aparición
+	en campo. Este valor puede ser modificado por efectos externos.
+	
+	Toda unidad debe poseer una precisión, es en valor sobre 100% de acertar un ataque.
+	
+	Toda unidad debe tener un sub rasgo de movilidad.
+	
+	Toda unidad debe poseer 4 facciones taxonómicas ordenadas en Orden - Familia - Genero - Especie
+
+	Toda unidad debe poseer un radio de visión expresado en metros, determinando el área en la cual revela información del entorno al jugador.
+
+	
+ESTRUCTURAS
+
+  - LAS HABILIDADES
+	Las habilidades en estructuras funcionan como efectos pasivos o activos que modifican su comportamiento, su capacidad funcional o su interacción con
+	unidades aliadas o con el entorno. A diferencia de las unidades, las estructuras no poseen habilidades orientadas al combate directo salvo que su rol
+	sea Defensivo.
+
+	Las habilidades pasivas representan condiciones constantes que fortalecen, modifican o condicionan el uso de la estructura sin requerir intervención
+	del jugador. Las habilidades activas requieren la acción explícita del jugador o la activación automática de la estructura bajo condiciones definidas.
+	Una habilidad solo debe existir si expresa un comportamiento funcional que no está descrito dentro de los roles o de las funciones ya definidas.
+
+	Las habilidades nunca sustituyen roles ni describen comportamientos naturales que la estructura ya posee por su tipo (biológica o no biológica). Su
+	finalidad es extender la capacidad de interacción estratégica de la estructura dentro del sistema RTS.
+
+  - LAS FUNCIONES
+	Las funciones representan el propósito operacional de la estructura en el campo, y dependen estrictamente del rol asignado. Cada estructura posee un
+	único rol que determina su comportamiento central: Productor, Soporte o Defensa.
+
+	- Función Productora:
+	  Una estructura productora puede engendrar, criar o entrenar unidades, mostrando al jugador las unidades compatibles disponibles en su mazo. Es el
+	  punto donde se produce el despliegue de nuevas unidades en campo, representando un lugar de origen, crecimiento o preparación.
+
+	- Función de Soporte:
+	  Una estructura de soporte permite desbloquear ataques, habilidades, mejoras o progresiones para unidades o estructuras aliadas. También permite
+	  aumentar características como vida o defensa, así como habilitar interacciones, dependencias o nuevas construcciones mediante gasto de recursos.
+
+	- Función Defensiva:
+	  Una estructura defensiva ejecuta ataques autónomos, semiautónomos o dirigidos contra enemigos en su rango de acción. Su carta describe su ataque,
+	  daño y tiempo de refresco, junto con las condiciones de activación si las tuviera.
+
+  - UNIDADES DESPLEGABLES
+	Las unidades desplegables representan la lista de criaturas que pueden ser producidas por una estructura de rol Productor. Esta lista depende del mazo
+	del jugador y de la compatibilidad entre la estructura y la unidad. Si una unidad posee variantes desbloqueadas y existe más de una estructura capaz de
+	desplegarla, cada estructura producirá la variante que corresponda según su propia lista.
+
+	La lista de unidades desplegables no expresa mejoras ni progresión en sí misma; solo expone qué puede producir la estructura y qué tiempo de despliegue
+	se requiere en cada caso.
+
+  - DESBLOQUEOS
+	Los desbloqueos son elementos otorgados exclusivamente por estructuras de rol Soporte. Representan la habilitación de capacidades nuevas que no
+	estarían disponibles sin la existencia de dicha estructura. Entre estos se incluyen:
+
+	  Nuevos ataques para una unidad o estructura.
+	  Nuevas habilidades aplicables a unidades aliadas.
+	  Aumento de vida, defensa o atributos relevantes mediante gasto de recursos.
+	  Progresiones o habilitación de estructuras superiores.
+	  Interacciones específicas entre unidades o con el entorno.
+
+	Los desbloqueos no tienen efecto directo en combate por sí mismos, sino que habilitan la capacidad del jugador de modificarse, adaptarse o progresar.
+	Los desbloqueos pueden ser fantásticos si o solo sí tienen coherencia dentro de la justificación de la historia.
+
+  - ATAQUES
+	Los ataques en estructuras existen únicamente en cartas con rol Defensivo. Un ataque debe poseer:
+
+	  Un nombre (genérico o contextual).
+	  Un valor de daño.
+	  Un tiempo de refresco.
+	  Su alcance y sus condiciones de activación si correspondiera.
+
+	El ataque no debe ser interpretado como habilidad, salvo que requiera una condición que no esté integrada en el propio ataque. Los ataques pueden aplicar
+	efectos en otras unidades si así lo especifica su descripción.
+
+  - EXTENSIONES
+	Las extensiones representan elementos complementarios construidos alrededor o en relación directa con una estructura base. Una extensión no es una
+	estructura independiente, sino un añadido que amplía, modifica, o especializa el comportamiento de la estructura principal.
+
+	Las extensiones pueden alterar la capacidad funcional de la estructura, su rango, su eficiencia o su interacción con el entorno, pero nunca sustituyen
+	el rol original de la estructura base. Tampoco reemplazan a la estructura ni permiten que se “superponga” otra construcción; son añadidos que dependen
+	totalmente de la existencia de la estructura principal.
+
+	La extensión puede poseer su propio coste, tiempo de construcción y condiciones, pero su uso es siempre secundario y vinculado a la estructura donde
+	se implementa. La destrucción de la estructura principal elimina automáticamente la extensión, y una extensión no puede colocarse sobre otra extensión.
+
+	Las extensiones representan crecimiento, ampliación o reforzamiento, pero nunca progresión por sí mismas; la progresión pertenece exclusivamente a las
+	funciones productoras o de soporte.
+
+  - ATRIBUTOS DE UNA ESTRUCTURA
+	Toda estructura debe poseer:
+
+	  Puntos de Vida: puntos que determinan su resistencia y cuánto daño puede recibir antes de destruirse.
+	  Defensa: reducción de daño efectiva, modificable por ataques o efectos.
+	  Tiempo de construcción: tiempo en segundos necesario para completar su edificación.
+	  Tiempo de refresco: tiempo para volver a producir, desbloquear o atacar, según su rol.
+	  Efectos y afinidades: efectos y afinidades que pueda aplicar, si sus ataques o habilidades lo permiten.
+	  Radio de visión: área de visibilidad desde la estructura en metros.
+	  Coste: Esencia, Conocimiento o Dinero requerido para construirla.
+
+	Toda estructura debe poseer también una lista de obreros del mazo actual del jugador capaces de construirla. Esta lista determina qué unidades pueden
+	realizar la edificación durante el gameplay.
+
+HECHIZOS
+  - ACTIVACIÓN Y USO
+	Los hechizos se despliegan desde el mazo cuando se cumplen las condiciones de activación indicadas en la carta. No requieren coste económico; su
+	disponibilidad queda condicionada únicamente por su tiempo de refresco y por las condiciones que la carta especifique.
+
+	Al desplegarse un hechizo:
+	  No es cancelable manualmente una vez activado.  
+	  Su persistencia se cumple íntegramente salvo que la propia carta exija lo contrario.  
+	  No puede volver a invocarse hasta completar su tiempo de refresco.  
+	  Si una condición necesaria desaparece tras su activación, el hechizo normalmente persiste hasta el final de su duración salvo cláusula contraria.
+  - LA PERSISTENCIA
+	La persistencia es la duración en segundos del fenómeno en campo. Su definición pertenece a la carta y determina el tiempo durante el cual el área
+	se encuentra afectada por el hechizo.
+
+	La persistencia finaliza cuando:
+	  Se cumple el tiempo fijado
+	  Se superpone un hechizo neutral que reemplaza al anterior (regla de exclusión)
+	  Se incumplen condiciones que la carta haya declarado como requisito indispensable durante su duración.
+
+	Los efectos residuales aplicados por el hechizo pueden continuar sobre las unidades si la carta lo indica explícitamente.
+
+  - LOS EFECTOS
+	Los efectos de un hechizo se detallan en la carta con precisión técnica. Pueden incluir alteraciones de atributos, estados de combate, creación de elementos
+	efímeros en el terreno o limpieza de efectos previos. Su aplicación funciona con las mismas reglas de efectos de combate: objetivos, duración y condiciones.
+
+	Los hechizos no pueden:
+	  Alterar de forma permanente la identidad biológica de una unidad.  
+	  Fusionar, mutar o convertir unidades en otras entidades.  
+	  Alterar fenómenos cosmológicos (día/noche, tiempo, espacio) fuera de una justificación estricta y diseñada.
+
+  - AISLAMIENTO ENTRE HECHIZOS
+	Reglas de coexistencia:
+	  Dos hechizos neutrales no pueden ocupar la misma área: el más reciente reemplaza al anterior.  
+	  Dos hechizos no neutrales pueden superponerse si sus efectos son compatibles.  
+	  Efectos opuestos de igual magnitud se anulan.  
+	  Efectos iguales se suman según sus valores definidos.
+	  Efectos de interacción contraria se formula por encima del efecto actual base de la unidad o estructura que sea afectada.
+
+  - INTERACCIÓN CON UNIDADES Y ESTRUCTURAS
+	Los hechizos pueden afectar unidades y estructuras según lo que la carta indique. Las estructuras solo reaccionarán de forma especial si poseen una habilidad
+	que lo mencione explícitamente. Los hechizos pueden alterar procesos si la carta lo especifica.
+
+  - ATRIBUTOS
+	Todo hechizo debe tener una persistencia, tiempo que se mantiene en segundos.
+	Todo hechizo debe tener un tiempo de refresco en segundos.
+	Todo hechizo debe tener una forma de área.
+	Todo hechizo debe tener una lista de condiciones para su despliegue.
+
+ECONOMÍA
+  LA ESENCIA
+	Es la moneda inicial por defecto, se obtiene de los recursos naturales asimilados en la base principal o en puntos de recolectores que especifiquen su
+	recolección, o si no especifican ninguna otra recolección.
+	Se usa para la creación principal de vida orgánica, puede usarse en otros gastos, pero su función principal es la vida.
+	Representa la forma de los seres de crear formas de vida que, usando los recursos de los alrededores de las criaturas, se conectan a ella desde el nacimiento.
+  EL CONOCIMIENTO
+	Es la moneda de las estructuras, se obtiene al desplegar unidades en campo, sean estas orgánicas o no estas otorgan cierta cantidad de conocimiento.
+	Se usa principalmente para la creación de estructuras, puede usarse en otros gastos.
+	Representa el instinto de las unidades animales para la su supervivencia e inteligencia.
+  EL DINERO
+	Es la moneda por defecto para gastos únicamente humanas, creadas por comercio e interferencia de esa unidad.
+	Se usa para la construcción de edificaciones o compras que representen mejoras en los atributos del Homo Sapiens base.
+	Su uso recae en la inversión tecnológica general que sea hecha por el Homo Sapiens base.
+	Representan el crecimiento único y exponencial en la raza humana, que requiere gastos además de los base en el resto de seres vivos.
+
+
+
+VARIANTES
+  EN ANIMALES:
+	Las variantes representan cartas de una unidad que, de una u otra forma, repiten actitudes, patrones de comportamiento o comparten el mismo
+	nombre científico con otra unidad. Expresan diferencias relevantes dentro de un mismo grupo funcional, sin ser lo suficientemente amplias como 
+	para constituir una carta independiente.
+
+	Una unidad no es variante si, pese a su parecido físico o taxonómico, presenta actitudes, métodos de caza, supervivencia o interacciones que 
+	la separan funcionalmente de otra; en dichos casos, refleja carta propia. Asimismo, cuando la similitud existe pero las diferencias derivan de 
+	adaptaciones profundas del entorno, la unidad no es variante, sino una entidad distinta (como ocurre con individuos de una misma especie con 
+	adaptaciones extremas a climas diferentes).
+
+	Las variantes mantienen la rareza de la unidad base y conservan su ataque principal. En la mayoría de casos, las diferencias entre variantes
+	se limitan a leves variaciones estadísticas o detalles de comportamiento menores, pero el ataque predeterminado se mantiene siempre igual en 
+	todas ellas.
+
+	Las variantes son elegibles por carta antes de iniciar la partida y representan opciones estéticas, de comportamiento leve o de expresión 
+	ecológica dentro de una misma identidad de unidad. Es posible tener más de una variante en campo si se cumplen las condiciones necesarias,
+	lo cual refleja la coexistencia de distintos fenotipos dentro de un mismo entorno.
+
+	Las razas y subpoblaciones dentro de una misma especie están representadas como variantes, al igual que los cambios de coloración o patrones
+	que no afectan significativamente el comportamiento general de la unidad. Familias taxonómicas con similitudes amplias y coherentes pueden 
+	agruparse también como variantes si comparten lo suficiente en actitud y función como para ser representadas bajo una misma carta base.
+
+  EN HUMANOS:
+	Las variantes representan cambios significativos en el comportamiento, entrenamiento o especialización de un humano, reflejando las profesiones 
+	que dicha unidad puede desempeñar. Cada variante expresa un método distinto de uso del cuerpo, del equipo o de la preparación técnica, y define 
+	cómo se comportará la unidad en el campo.
+
+	Son seleccionables antes de iniciar la partida mediante la carta del humano correspondiente. En la mayoría de casos, dejar al humano en su 
+	variante obrera es la decisión más estratégica, dado que ciertas variantes pierden capacidades fundamentales, como la construcción de 
+	estructuras humanas, lo cual puede bloquear progresiones completas en el mazo del jugador.
+
+	A diferencia de las variantes animales, las variantes humanas pueden cambiar de rareza según el tipo de entrenamiento representado. No están 
+	obligadas a compartir ataques en común ni a conservar habilidades entre sí, dado que su identidad depende de la profesión adoptada. Cada 
+	variante corresponde a un estilo de uso totalmente diferente del humano en el entorno de combate o soporte.
+
+	Es posible desplegar distintas variantes humanas en campo si las estructuras correspondientes permiten su invocación, permitiendo una mayor 
+	diversidad organizativa en partidas donde la tecnología humana alcance niveles avanzados.
+
+  EN ESTRUCTURAS:
+	Las variantes representan formas alternativas de una misma estructura base, expresando cambios en su especialización ecológica o funcional sin alterar
+	su identidad fundamental. A diferencia de la estructura base, las variantes no se construyen directamente, sino que existen como posibilidades que 
+	la estructura puede adoptar permanentemente durante la partida.
+
+	Las variantes se visualizan en la sección interna de la carta de estructura, donde se muestran como cartas completas con su imagen, nombre, descripción
+	y detalles formales. Esta lista permite conocer todas las variantes desbloqueadas de la estructura, pero no permite seleccionarlas ni reemplazarlas 
+	antes de iniciar la partida.
+
+	Una estructura en campo puede transformarse a una de sus variantes mediante la opción “Mejorar variante”, accesible únicamente tras la construcción
+	de la estructura base. Esta opción se presenta en forma de botones minimalistas que muestran únicamente la imagen y nombre de cada variante, junto a 
+	su costo, tiempo de construcción y condiciones necesarias. La variante seleccionada inicia un proceso de transformación independiente del obrero, el 
+	cual no es requerido para realizar este cambio.
+
+	El cambio a variante es irreversible: una vez iniciada la transformación, no puede cancelarse, revertirse ni cambiarse por otra variante. La estructura
+	adoptará de forma permanente la apariencia, el nombre extendido y las funciones de la variante elegida. La transformación no reemplaza a la estructura
+	por una carta distinta, sino que modifica su estado dentro de la misma identidad de carta.
+
+	Las variantes no son mejoras ni incrementos de atributos; representan una especialización de la estructura hacia un perfil funcional específico, que
+	puede incluir desbloqueos, interacciones o comportamientos distintos, siempre manteniendo el mismo rol original de la estructura base. No alteran el
+	tipo ni permiten una progresión entre variantes, limitándose a una única elección definitiva por estructura.
+
+	Las variantes no aparecen en la lista de estructuras construibles del obrero ni cuentan como estructuras independientes. Su función es reflejar formas
+	alternas que una estructura puede adoptar según las condiciones del entorno, de las unidades presentes o del desarrollo del mazo del jugador, sin 
+	introducir nuevas entidades separadas en el sistema de construcción.
+
+EFECTOS ESPECIALES
+  Los Efectos Especiales son la forma de llamar a, de forma existente o no, las modificaciones de Atributos, Efectos, Condiciones y objetos que no existen de forma base en
+  Imperio Astral.
+  Un Efecto Especial representa casos específicos que deben ser definidos y programados de forma interna para cada unidad que la posea.
+  Los Efectos Especiales pueden ser reutilizables.
+  Todo Efecto Especial tendrá relación con quién la posea.
+
+
+DATOS
+  Todos los datos numéricos de vida, daño y defensa deben de ser manejados como enteros múltiplos de 10. (150, 2k)
+  Todos los datos de proporción o porcentaje no deben superar las 3 cifras decimales, siempre y cuando las cifras decimales sean múltiplo de 10. (0.010, 120.200)
+  La fórmula del daño después de la reducción, donde V es la vida, Dr es el daño recibido, K es la constante de reducción y D es la defensa es:
+	DF = Dr - K(D)/V
+  La fórmula del desborde de río, donde D es el porcentaje de desborde y T es tiempo en horas del juego es:
+	D = 80 * (T/36)^2
+	Esta evita redundancias innecesarias por demasiada información decimal que puede simplificarse a 1.
+	Además, da lógica propia al juego sobre el modo de usar la defensa con respecto a de qué carta se está hablando.
+  La fórmula del cálculo del empate tras acabarse el tiempo, donde DU es el daño total a las unidades aliadas, DE es el daño total recibido a todas las estructuras, 
+	PP son los puntos dados por destruir puntos de reunión y P es el puntaje del jugador para determinar la victoria por cantidad:
+	P = 0.002(DU) + 0.003(DE) + 50 (PP)
+  La menor cantidad de daño posible recibido es 10.
+  Las probabilidades manejadas no se interfieren, se operan una por encima de la otra.
+  
+
+SUB RASGOS
+  Los sub rasgos son apreciaciones que puede tener una unidad pero no está visiblemente resaltante, afecta en muchos aspectos de importancia.
+  Los sub rasgos sirven como apreciación visual rápida para identificación del jugador.
+  Los sub rasgos pueden tener ser afectados por factores externos si es posible hacerlo.
+  Los sub rasgos pueden ser usados como objetivos a efectos.
+  Una carta puede o no tener sub rasgos, además, se puede tener mas de un sub rasgo.
+  Las mejoras o debilidades agregadas aquí son base, y cualquier modificación única de carta propia se opera directamente a esta.
+  Los sub rasgos deben ser coherentes en base a quien la posee.
+  Los sub rasgos basados en taxonomía no reemplazan la taxonomía como atributo de cada unidad, que es la usada para aplicar efectos.
+  Los sub rasgos basados en taxonomía permiten ver visualmente a los usuarios la clase principal de su unidad sin tener que recurrir a sus características.
+  Los sub rasgos basados en taxonomía permiten acostumbrar al jugador a ciertas interacciones y las asocie a estas.
+  -----
+  - Mamífero
+	Esta carta representa una unidad integrante de la clase Mammalia (Ma)
+	
+  - Ave
+	Esta carta representa una unidad integrante de la clase Aves (Av)
+	Siempre posee una probabilidad base de esquivar ataques en 3%
+  - Reptil
+	Esta carta representa una unidad integrante de la clase Reptilia (Re)
+	Esta unidad recibe un 40% más al efecto de Frío.
+	Esta unidad recibe un -80% más al efecto de Calor.
+	Esta unidad tiene inmunidad a Desmoralización.
+  - Anfibio
+	Esta carta representa una unidad integrante de la clase Amphibia (Am)
+	Esta unidad tiene inmunidad a Desmoralización.
+	Esta unidad tiene un aumento de 30% de velocidad adicional en agua.
+	Tiene más 20% a efectos de Calor y Frío.
+  - Pez
+	Esta carta representa una unidad integrante de la clase Actinopterygii (Ac)
+	Si esta carta recibe daño fuera del agua, recibe 50% más de daño.
+	Esta unidad puede esquivar ataques en 4%.
+  - Insecto
+	Esta carta representa una unidad integrante de la clase Insecta (In)
+	Esta unidad puede esquivar ataques en 1%.
+	Esta unidad tiene inmunidad a Desmoralización y Sangrado.
+	Hereda habilidad "Tamaño diminuto": Si el tamaño de esta carta es menor a S, es invisible para toda unidad que sea mayor a M.
+
+  - Arácnido
+	Esta carta representa una unidad integrante de la clase Arachnida (Ar)
+	Esta unidad puede esquivar ataques en 2%.
+	Hereda habilidad "Tamaño diminuto": Si el tamaño de esta carta es menor a S, es invisible para toda unidad que sea mayor a M.
+	Esta unidad tiene inmunidad a Desmoralización y Sangrado.
+
+  - Cefalópodo
+	Esta carta representa una unidad integrante de la clase Cephalopoda (Ce)
+	Esta unidad puede esquivar ataques en 1%.
+
+  -  Terrestre
+	Esta carta puede realizar sus funciones únicamente en tierra.
+	Unidad hereda "Caminar": Desplazamiento exclusivo por tierra a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
+
+  -  Acuático
+	Esta carta puede realizar sus funciones únicamente en agua.
+	Unidad hereda "Nadar": Desplazamiento exclusivo por agua a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
+
+  - Semiacuático
+	Esta carta puede realizar sus funciones solo en tierra y agua.
+	Unidad hereda "Traslación de agua a tierra": Desplazamiento mixto con velocidades Xm/s en tierra y Ym/s en agua; tras Z segundos en cualquier medio, la unidad debe regresar 
+	a su entorno H.
+
+  - Aéreo
+	Esta carta puede realizar sus funciones únicamente en aire.
+	Unidad hereda "Volar": La unidad no puede ser atacada por ataques cuerpo a cuerpo desde tierra mientras la habilidad esté activa. Ataques de largo alcance 
+	pueden afectarle. Tras X segundos, la unidad se posará en tierra y perderá temporalmente esta capacidad hasta ser desplazada nuevamente.
+
+  - Centro de Mando
+	Esta estructura hereda "Punto de reunión": Los obreros en campo pueden usar esta estructura para llevar los recursos y que estos, tras X segundos, estén como
+	Esencia en el apartado de la economía.
+	Esta estructura al ser destruida otorga un puntaje X de PP en un rango de 0~1, el cuál es útil para el cálculo interno del empate.
+
+  - Héroe
+	Solo puedes tener una carta de este sub rasgo en campo.
+	Si esta carta ya se ha desplegado y desaparece del campo, no puedes invocar otra.
+
+NÚCLEOS
+  Los núcleos, al igual que los sub rasgos, otorgan características a sus poseedores, pero por su cantidad y su simpleza, van en un apartado diferente
+  Los núcleos pueden ser usados como objetivos en efectos y afinidades.
+  Núcleos:
+	
+  -  Animal
+ 	Esta carta puede ser afectada por todos los efectos de combate.
+ 	Indica una unidad viviente perteneciente a Animalia (An)
+
+  - Vegetal
+ 	Esta carta no puede ser afectada por efectos de combate.
+ 	Esta carta puede ser afectada por efectos dirigidos a estructuras.
+ 	Indica una estructura viviente perteneciente a Plantae (Pl)
+
+  -  Tecnológico
+	Esta carta no puede ser afectada por algunos efectos de combate, independientemente de la carta.
+	Esta carta puede sufrir el efecto de Oxidación acelerada sea o no una estructura.
+	Indica un metabolismo no orgánico creado por humanos, perteneciente a Metal (Me)
+
+
+RECURSOS
+  - Naturales Renovables: Este recurso puede aparecer en mapa en ciertos momentos, con una probabilidad X, representa recursos renovables en mapa, recuperables o que, 	según la lógica, puede aparecer varias veces en mapa.
+
+  - Naturales No Renovables: Este recurso puede aparecer una vez en mapa, pero, poseen una cantidad limitada de aparición, es decir, es estática, no aparecen con el 
+	tiempo, además, no siempre puede ser natural, representa recursos que no se recuperarían en poco tiempo en el mapa, usualmente valiosos.
+
+  - Artificiales: Estos recursos no son puestos por el mapa, si no, construido por el jugador, aquí este puede generar un punto donde sus obreros recolecten recursos,
+	representan cultivos, trabajos o zonas que puede o no que se acaben en producir.
+
+TIEMPO
+  EL TRANSCURSO DEL DÍA
+	Una partida estándar tiene un límite máximo de 90 minutos.
+	Se divide en 4 partes:
+	  Mañana - 7:00am ~ 11:59am
+	  Tarde - 12:00pm ~ 6:59pm
+	  Noche - 7:00pm ~ 11:59pm
+	  Madrugada - 0:00am ~ 6:59am
+	Se agrupan en dos secciones: Día (Mañana y Tarde) y Noche (Noche y Madrugada)
+	En partida, cada 2.5min reales son 1h.
+	En cada partida, son jugables 36 de esas horas.
+	Una partida estándar empieza a las 12:00pm y termina a las 0:00am, 36 horas después.
+	Si ya han pasado 30 horas de juego, las próximas 6 entra en un evento llamado Caída Súbita, en el cual, quien rompa una estructura de sub rasgo "Centro de 
+	Mando", llevará la victoria.
+
+  LOS FENÓMENOS
+	En las partidas, pueden existir fenómenos que se den, complicando el avance de los jugadores, o, apresurándolos.
+	En las mañanas, no existen fenómenos.
+	En las tardes, existe 1~2 fenómenos leves, además, se reduce 15% la aparición de recursos en el mapa.
+	En las noches, existen 1~5 fenómenos, entre leves y medios, además, se reduce en 20% la aparición de recursos en mapa.
+	En las madrugadas, existen 2~8 fenómenos, entre leves, medios y fuertes, además, se reduce en 35% la aparición de recursos en mapa.
+	Los fenómenos pueden ser interpretados como hechizos que se colocan en el campo por el terreno.
+	Los fenómenos pueden alterar el mapa
+
+	EL DESBORDE DEL RÍO: Fenómeno que siempre está disponible, este aumenta el tamaño del rio que divide el mapa, quitando terreno jugable en cierto porcentaje,
+		además, varía no de la hora que sea, si no, del tiempo que ha pasado en horas de juego, es decir desde 1~36, ello indica que, aumentará su tamaño.
+		
+	
+  EL FIN DE LA PARTIDA
+	Una partida puede terminar si:
+		Uno de los jugadores se rinde.
+		Un jugador pierde su base principal y no tiene otra estructura de soporte que sirva de punto de encuentro de obreros. En caso que sí tenga, no pierde,
+		pero será revelado por lo que queda de partida.
+		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
+		
+

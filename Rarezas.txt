@@ -1,0 +1,45 @@
+Rarezas de Imperio Astral
+-----------------------------------------------------------------------------------
+
+La rareza en Imperio Astral actúa como el indicador principal de la complejidad biológica o tecnológica de una carta. Este valor no determina arbitrariamente el poder de combate, sino que establece cuántas herramientas mecánicas (ataques, habilidades o funciones) posee la entidad para interactuar con el entorno. A mayor rareza, mayor es la autonomía de la unidad, más compleja es la obtención del hechizo y más amplia es su representación taxonómica.
+-----------------------------------------------------------------------------------
+NIVELES DE CLASIFICACIÓN
+
+1. Común
+2. Especial
+3. Raro
+4. Épico
+5. Ultra Épico
+6. Legendario
+7. Mítico
+
+-----------------------------------------------------------------------------------
+DESCRIPCIONES
+
+Común
+Representa la base fundamental de cualquier estrategia. Estas unidades y estructuras se definen por su funcionalidad directa y su abundancia. Biológicamente, son especies gregarias o de bajo eslabón en la cadena trófica cuya fuerza radica en el número. Mecánicamente, son piezas de ejecución simple, generalmente limitadas a una única función o ataque predeterminado, careciendo de habilidades activas complejas para mantener la fluidez del despliegue masivo.
+
+Especial
+Las cartas de este nivel introducen la especialización leve, aportan una utilidad táctica específica. Suelen incorporar habilidades pasivas sencillas que permiten las primeras sinergias básicas entre tropas aliadas, representando a especies con adaptaciones evolutivas que les otorgan ventajas visibles sobre sus contrapartes comunes, sin llegar a dominar el campo por sí mismas.
+
+Raro
+Se presentan unidades que por dificultad de conseguir, habilidades o sobre saliencia por encima de los anteriores, se sienten más importantes o tienen un desempeño aceptable en campo; en 
+estructuras, la construcción de estas pueden definir acciones nuevas o desbloqueos iniciales.
+
+Épico
+Representa la distinción dentro de un Género taxonómico. A diferencia de las anteriores, estas cartas poseen comportamientos o mecánicas que se salen del estándar operativo para cubrir nichos específicos. Su valor no reside en la fuerza bruta, sino en la capacidad de resolver situaciones concretas mediante atributos únicos que obligan al jugador a microgestionar su uso. 
+
+Ultra Épico
+Corresponde a los líderes naturales de una Familia Taxonómica o a los ejes centrales de la infraestructura. Estas entidades poseen una alta capacidad de supervivencia y actúan como anclas alrededor de las cuales se organiza el ejército. Mecánicamente, es el punto de inflexión donde las estructuras habilitan mejoras sustanciales y las unidades tácticas alcanzan su potencial ofensivo completo.
+
+Legendario
+La escala aumenta al nivel de Orden Taxonómico. Estas cartas simbolizan la supremacía organizada; su presencia en el campo altera el ritmo de la batalla, afectando a grandes grupos de unidades mediante comportamientos avanzados. Tanto en biología como en tecnología, representan sistemas complejos y de gran escala. Para los hechizos, implica eventos de difícil obtención y alto impacto en el área designada.
+
+Mítico
+Anomalías que existen fuera de la lógica natural o tecnológica estándar. Este nivel se reserva para mutaciones extremas, híbridos artificiales o fenómenos que alteran las leyes físicas del juego. Son hitos de diseño únicos; sus mecánicas no buscan el equilibrio convencional, sino la introducción de condiciones excepcionales que rompen la simetría de la partida.
+
+-----------------------------------------------------------------------------------
+
+CONSIDERACIONES SOBRE LOS HECHIZOS
+
+A diferencia de las unidades que responden a la taxonomía, la rareza en los hechizos se define por la dificultad de adquisición y la complejidad del fenómeno invocado. Un hechizo de rareza baja representa eventos comunes o de fácil replicación, mientras que las rarezas altas implican alteraciones del entorno que requieren condiciones complejas para ser desplegadas o descubiertas.

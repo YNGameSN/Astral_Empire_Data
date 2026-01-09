@@ -1,0 +1,217 @@
+Cómo leer documentos:
+
+Entre corchetes [ ]: elementos obligatorios.
+
+Entre paréntesis ( ): elementos opcionales.
+
+Palabras directas: elementos fijos que nunca cambian.
+
+UAA = Unidad Aliada Activa
+UEA = Unidad Enemiga Activa
+UED = Unidad Enemiga Derrotada
+UAD = Unidad Aliada Derrotada
+EAA = Estructura Aliada Activa
+EAD = Estructura Aliada Destruida
+EAN = Efecto Atribuido o Nativo
+---
+
+Fichas: Otorgan información base para empezar la definición de una carta.
+
+Unidad.
+
+[Nombre científico] - [Nombre común]
+Categoría: Unidad
+Rareza: [Rareza]
+Rol: [Rol]
+Tipo: [Tipo]
+
+Descripción breve:
+[Descripción de la naturaleza, aporte, habitad e impacto]
+
+Habilidad: ([Pasiva o activa] - ([Tiempo de refresco si es activa]) Si es necesario)
+[Nombre de la habilidad] - [Descripción de la habilidad] - [Tiempo activa / Si es necesario]
+
+Ataque 1 (Predeterminado) 
+[Nombre del ataque] - [Daño (/[tiempo de refresco] si es necesario)]
+[Descripción en lenguaje común del ataque o no si no es necesario]
+
+Ataque 2 ([Desbloqueable o cambiable] - Solo si es necesario)
+[Nombre del ataque] - [Daño (/[tiempo de refresco] si es necesario para el soldado)]
+[Descripción en lenguaje común del ataque o no si no es necesario]
+
+Ataque 3 ([Desbloqueable o cambiable] / Único de rareza igual o superior a legendario)
+[Nombre del ataque] - [Daño (/[tiempo de refresco] si es necesario)]
+[Descripción en lenguaje común del ataque o no si no es necesario]
+
+Efectos y Afinidades:
+
+[Lista de los efectos y sus condiciones / a quienes afectan]
+
+
+Unidad Táctica.
+
+[Nombre científico] - [Nombre común]
+Categoría: Unidad
+Rareza: [Rareza]
+Rol: Táctico
+Tipo: [Tipo]
+
+Descripción breve:
+[Descripción de la naturaleza, aporte, habitad e impacto]
+
+Habilidad: ([Pasiva o activa] - Si es necesario)
+[Nombre de la habilidad] - [Descripción de la habilidad]
+
+[Nombre del ataque] (Desbloqueable / Si es desbloqueable) - [tiempo de refresco]
+[Descripción técnica del ataque y requisitos si los tiene] 
+
+[Nombre del ataque] (Desbloqueable / Si es desbloqueable) - [tiempo de refresco]
+[Descripción técnica del ataque y requisitos si los tiene] 
+
+[Nombre del ataque] (Desbloqueable / Si es desbloqueable - [tiempo de refresco] / Tercer ataque único de rarezas superiores a Épico)  
+[Descripción técnica del ataque y requisitos si los tiene]
+
+Efectos y Afinidades:
+[Lista de los efectos y sus condiciones / a quienes afectan]
+
+
+Estructura.
+
+[Nombre de la estructura] - (De [Criatura original de la estructura] / Si es necesario)
+Categoría: Estructura
+Rareza: [Rareza]
+Rol: [Rol]
+Tipo: [Tipo]
+
+Descripción breve:
+[Descripción de la naturaleza, aporte e impacto funcional de la estructura]
+
+Habilidad: ([Pasiva o activa] - Si es necesario)
+[Nombre de la habilidad] - [Descripción de la habilidad]
+
+Funciones:
+[(Lista de [[Unidades desplegables] - [Desbloqueos] - [Ataques]])]
+
+Efectos y Afinidades:
+
+[Lista de los efectos y sus condiciones / a quienes afectan]
+
+
+Hechizo.
+
+[Nombre del hechizo]
+Categoría: Hechizo
+Rareza: [Rareza]
+Rol: [Rol]
+Tipo: [Tipo]
+
+Descripción breve:
+[Descripción del fenómeno representado, su naturaleza, origen astral o reproductivo del evento, y su impacto general durante la activación.]
+
+Efecto:
+[Lista de los efectos principales del hechizo, incluyendo condiciones, objetivos y comportamiento general dentro del rango]
+
+Condiciones: 
+[Lista de condiciones para su despliegue]
+
+---
+
+
+Formularios: Otorgan información técnica para la creación de cartas, una versión final del formulario con datos muy tomados en cuenta para el motor.
+
+Las condiciones en efectos que no estén registrados como de combate / afinidad / ambiental / etc se dan con la siguiente nomenclatura:
+(efecto) | Sí y solo sí: (condición específica Taxonómica - Momentánea)
+o :
+(efecto) | Si se da en X% de probabilidad.
+o :
+(efecto) | Únicamente si se cumple (condición específica Taxonómica - Momentánea) se podrá en X% de probabilidad.
+Además se puede usar Mientras y Hasta, para definir tiempo o condición.
+
+Para modificaciones auto aplicadas no se usa la conjugación Nombre | Valor | Objetivo (Taxonomía/Subrasgo/Tamaño técnicos), es reemplazada con:
+Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valor 
+
+Para modificaciones de atributos propios o ajenos, usar:
+Atributo (a cambiar) | (+ / -) | Valor 
+
+Todos, la forma base y derivados, pueden o no llevar condición.
+
+Para los ataques desbloqueables es opcional colocar como primer dato antes del nombre, qué condiciones se necesita para el desbloqueo.
+
+Unidad
+
+Nombre Científico: [Nombre en latín o designación técnica]  
+Nombre Común: [Nombre genérico para el jugador o nombre conocido de la unidad]  
+Categoría: Unidad  
+Rareza: [Común | Especial | Raro | Épico | Ultra Épico | Legendario | Mítico]  
+Rol: [Soldado | Obrero | Táctico]  
+Tipo: [Depredador | Presa | Simbionte]  
+
+Descripción Breve: [Texto conciso sobre naturaleza, hábitat, dieta e impacto funcional]  
+
+Puntos de Vida (PV): [Entero múltiplo de 10]  
+Defensa (DEF): [Entero múltiplo de 10]  
+Velocidad: [Valor en m/s (sin bonificadores externos)]  
+Precisión: [Valor porcentual base sobre 100%]  
+Radio de Visión: [Valor entero en metros]  
+Tamaño: [XXS | XS | S | MS | M | ML | L | XL | XXL]  
+Taxonomía: [Orden - Familia - Genero - Especie | Vacío si no tiene taxonomía (no perteneciente a Animalia)]
+
+Coste de Despliegue: [Valores enteros]  (Cantidades respectivas al apartado anterior)
+Tipo de Recurso: [Esencia | Conocimiento | Dinero] 
+Conocimiento Otorgado: [Valor fijo o proporcional a vida máxima]  
+Tiempo de Despliegue: [Valor en segundos]  
+
+Nombre de Habilidad: [Nombre identificativo]  
+Tipo: [Pasiva | Activa]  
+Tiempo de Refresco: [Segundos (Si es necesario)]  
+Tiempo de Actividad: [Segundos (Si es necesario)]  
+Descripción (Visible): [Descripción para el usuario]
+Descripción (Tecnico): [Condiciones de activación y efectos exactos]  
+
+Ataque 1 (Predeterminado):  
+  - Nombre: [Nombre genérico o específico]  
+  - Daño: [Entero múltiplo de 10]  
+  - Tipo de Ataque: [Tipo de Ataque]
+  - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Tiempo de Refresco: [Segundos]  
+  - Duración de animación de ataque [Segundos]
+  - Descripción: [Detalles básicos del golpe] 
+  - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
+
+Ataque 2: (Rellenar solo si es Soldado (desbloqueable / Secundario), Obrero > Ultra Épico, o Táctico)
+  - Condición [(Desbloqueable | Secundario)]
+  - Nombre: [Nombre del ataque]  
+  - Daño: [Entero múltiplo de 10]  
+  - Tipo de Ataque: [Tipo de Ataque]
+  - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Tiempo de Refresco: [Segundos]  
+  - Duración de animación de ataque [Segundos]
+  - Descripción: [Detalles básicos del golpe]  
+  - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
+
+Ataque 3: (Rellenar solo si es Soldado >= Legendario o Táctico >= Épico (desbloqueable / Secundario))
+  - Condición [Desbloqueable | Secundario]
+  - Nombre: [Nombre del ataque]  
+  - Daño: [Entero múltiplo de 10]  
+  - Tipo de Ataque: [Tipo de Ataque]
+  - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Tiempo de Refresco: [Segundos]  
+  - Duración de animación de ataque [Segundos]
+  - Descripción: [Detalles básicos del golpe] 
+  - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
+
+Lista de Efectos y Afinidades (Visible): [Lista de efectos que se aplican en el formato de correcta muestra de Efectos y Afinidades]
+Lista de Efectos y Afinidades (Técnico): [Lista de efectos que se aplican con: Nombre | Valor | Objetivo (Taxonomía/Subrasgo/Tamaño técnicos (si es necesario))]
+
+Construcción: [Lista de nombres de estructuras globalmente construibles | Dejar vacío si no es obrero]  
+
+Sub rasgos:
+[Lista de sub rasgos, obligatoria la movilidad]
+
+Núcleo:
+[Núcleo único]
+
+
+
+
+

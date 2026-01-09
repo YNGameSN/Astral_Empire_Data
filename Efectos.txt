@@ -1,0 +1,249 @@
+
+Efectos - Imperio Astral
+
+Nota: Este documento consolida todas las reglas de efectos discutidas hasta ahora: efectos de combate (negativos), efectos de afinidad/positivos, efectos sobre estructuras, inmunidades, resistencias y evasión. No se ha inventado información nueva; todo proviene de la conversación previa y las definiciones acordadas.
+
+1) EFECTOS EN COMBATE
+---
+Estos efectos son aplicados por ataques o habilidades y afectan unidades en combate.
+
+- Sangrado
+  Qué hace: Pérdida continua de X% de PV tras Y segundos.
+  Cura principal: Tiempo
+  Notas: Nunca causa muerte, puede dejar a la vida en mínimo.
+
+- Veneno
+  Qué hace: Pérdida continua en X de PV tras Y segundos.
+  Cura principal: Tiempo
+  Notas: Puede causar muerte si no es tratado.
+
+- Infección / Enfermedad
+  Qué hace: Pérdida continua en X% de PV tras Y segundos, expandible en Z metros con H% de probabilidad.
+  Cura principal: Tratamiento.
+  Notas: Puede propagarse entre unidades aliadas en rango, puede causar muerte.
+
+- Miedo
+  Qué hace: La unidad huye o desobedece órdenes; reacciona peor a órdenes por X segundos.
+  Cura principal: Tiempo
+  Notas: Este efecto causa frustración por negación al cumplimiento de ordenes como retirarse, atacar, cambiar de ataque, y otros
+
+- Confusión
+  Qué hace: Pérdida de precisión en X%.
+  Cura principal: Tiempo
+  Notas: Se puede ver afectado la dirección en la que va; los ataques tienen obtienen la posibilidad de fallar, y si es el caso se hará daño; todo en valor de X.
+
+- Desmoralización
+  Qué hace: Reduce ataque, disminuye velocidad de movimiento y bloquea algunas habilidades.
+  Cura principal: Tiempo
+  Notas: Casi exclusivamente de humanos (Homo Sapiens)
+
+- Parálisis / Congelación
+  Qué hace: Unidad inmovilizada; no ataca ni activa habilidades manuales por X segundos (las pasivas siguen activas).
+  Cura principal: Tiempo
+
+- Empuje
+  Qué hace: Desplaza físicamente a la unidad una distancia X en Y segundos, impidiéndole moverse o atacar durante el desplazamiento; durante ese trayecto
+	    si es chocado contra alguna estructura aliada o rival, la estructura y la unidad compartirán un % (1~10%) del daño original del golpe de quién 
+	    lo provocó
+  Cura principal: Inmunidad
+
+- Ralentización
+  Qué hace: Reduce la velocidad de movimiento X% por Y segundos.
+  Cura principal: Tiempo
+
+- Debilitación
+  Qué hace: Reduce el daño físico/cuerpo a cuerpo X% por Y segundos.
+  Cura principal: Tiempo
+
+- Desgaste
+  Qué hace: Reduce la defensa actual X% por Y segundos.
+  Cura principal: Tiempo
+
+- Ceguera
+  Qué hace: Reduce campo de visión y detección; detectores pierden funcionalidad en rango afectado.
+  Cura principal: Tiempo
+
+
+2) EFECTOS SOBRE ESTRUCTURAS
+----------------------------------------------
+Aplicados por armas, hechizos, explosiones, sabotaje biológico, etc.
+
+- Combustión
+  Qué hace: Estructura ardiendo; pierde vida con el tiempo.
+  Curable: Sí (reparación y extinguir fuego cuando la vida sea suficientemente alta).
+
+- Oxidación acelerada
+  Qué hace: Daño progresivo a objetivos específicos (metálicas); reduce resistencia de forma gradual.
+  Curable: No (la reparación no elimina totalmente el efecto); normalmente requiere reemplazo.
+
+- Invalidación
+  Qué hace: Estructura generadora inmovilizada / hackeada / congelada — deja de funcionar por X segundos.
+  Curable: Sí, con habilidades o tras el respectivo tiempo.
+
+- Infección orgánica
+  Qué hace: Estructura inútil; funciones detenidas hasta eliminar la infección.
+  Curable: Requiere tratamiento biológico específico.
+
+
+3) AFINIDADES
+-------------------------------------------------------------
+Efectos que alteran stats o comportamiento que posee una unidad y son aplicadas en ciertas condiciones
+
+- Dureza
+  Qué hace: Reduce daño recibido de un tipo biológico y tamaño específico (5–60% según grado).
+  Aplicable a: ataques concretos por filo/clase/orden/tamaño.
+
+- Fuerza
+  Qué hace: Aumenta daño hacia un grupo taxonómico y tamaño específico (5–80%).
+
+- Crítico
+  Qué hace: Probabilidad base 5%; daño de área crítico representa 300% del daño en área seleccionada.
+  Notas: Aplicable principalmente a unidades con ataques en área, puede tener condiciones
+
+- Eficacia
+  Qué hace: Mejora ataque y defensa contra grupos biológicos/tamaños definidos.
+
+- Reproche 
+  Qué hace: Tras perder cierto % de vida, la unidad aumenta su daño hasta X%.
+
+- Precaución
+  Qué hace: Tras perder un cierto % de vida, la unidad aumenta su velocidad de movimiento un X%
+
+- Evasión
+  Qué hace: Evita daño físico y efectos secundarios de ataques puntuales (veneno, sangrado si el ataque habría aplicado el efecto), pero no evita habilidades
+	    pasivas que serían afectadas aunque no hubiera acertado el golpe.
+
+- Detección (Rango asignado para mostrar unidades invisibles)
+  Qué hace: Mientras esta unidad esté presente, y otra invisible esté en su rango, dejará de ser invisible para el rival
+
+- Invisibilidad
+  Qué hace: Esta unidad solo será visible para los aliados, mas no para el rival
+  Notas: Esto es representado por enterrarse, vuelo alto o navegación profunda en agua, así como la tecnología de invisibilidad,
+	 el camuflaje y el mimetismo.
+
+(Otros efectos de afinidad pueden actuar como modificadores de estadísticas, pero deben seguir la regla: si afectan a un grupo, ese grupo debe ser definido por [filo/clase/orden/género/especie] y/o tamaño.)
+
+
+4) EFECTOS DE ENTORNO
+-------------------------------------------------------------
+Estos efectos son condicionales de entorno o hechizo, no se aplican por ataques comunes a menos que el ataque lo mencione explícitamente.
+- Frío
+ Qué hace: Disminuye la velocidad de movimiento y la velocidad de ataque de la unidad afectada.
+
+ Condición: Activo en zonas de clima helado, bajo hechizos o ataques con afinidad de hielo.
+
+ Duración: Variable según la fuente.
+
+ Curable: No (solo al quitarse la condición con alguna estructura, paso del tiempo o inmunidad al frío).
+
+- Calor
+ Qué hace: Reduce la defensa y el daño de ataque de la unidad mientras se mantenga la condición.
+
+ Condición: Activo en zonas desérticas, bajo exposición prolongada o por efectos de fuego intenso.
+
+ Duración: Persistente mientras continúe la condición.
+
+ Curable: No (Quitado por el tiempo que dure el efecto, interacciones o inmunidad al calor).
+
+
+
+
+5) INMUNIDADES (ANULACIÓN COMPLETA DE UN EFECTO - AFINIDAD)
+------------------------------------------------
+Las inmunidades bloquean por completo ciertos efectos negativos. Deben definirse en la unidad o estructura que la posea, en la descripción general
+o en su mejora que la desbloquea en campo.
+
+- Inmunidad al sangrado
+- Inmunidad al veneno
+- Inmunidad a infección / enfermedad
+- Inmunidad al miedo
+- Inmunidad a confusión
+- Inmunidad a desmoralización
+- Inmunidad a congelación / parálisis
+- Inmunidad a ralentización
+- Inmunidad a desgaste
+- Inmunidad a la debilitación
+- Inmunidad a ceguera
+- Inmunidad a combustión (estructuras)
+- Inmunidad a invalidación (estructuras)
+- Inmunidad a infección orgánica (estructuras)
+- Inmunidad al golpe crítico
+- Inmunidad al empuje
+- Inmunidad al calor
+- Inmunidad al frío
+
+
+6) RESISTENCIAS (MITIGACIÓN PARCIAL - AFINIDAD)
+------------------------------------
+Reducciones porcentuales que no anulan completamente un efecto pero disminuyen su probabilidad, duración o daño.
+
+- Resistencia al sangrado (reduce daño/duración)
+- Resistencia al veneno (Reduce el daño por el respectivo tiempo)
+- Resistencia a infección (Reduce probabilidad de contagio y daño)
+- Resistencia a confusión (Sigue órdenes cierto porcentaje mejor)
+- Resistencia a desmoralización (El daño y velocidad se recupera parcialmente)
+- Resistencia a congelación (tiempo reducido)
+- Resistencia a ralentización (tiempo y porcentaje de ralentización reducido)
+- Resistencia a desgaste (tiempo y porcentaje de desgaste reducido)
+- Resistencia a la debilitación (reduce porcentaje/duración)
+- Resistencia a ceguera (tiempo y porcentaje de reducción de campo de visión reducido, reducido)
+- Resistencia al frío (reduce porcentaje de velocidad de ataque reducida / de velocidad de movimiento reducido)
+- Resistencia al calor (reduce porcentaje de daño reducido / de defensa reducida)
+
+7) REGLAS Y CONDICIONES IMPORTANTES (RESUMEN)
+--------------------------------------------
+- Para que un efecto (p. ej. veneno, sangrado, parálisis) se aplique, debe estar explícitamente mencionado en el ataque o habilidad que lo provoca.
+- Muchos efectos son condicionales por tamaño o grupo (filo/clase/orden/género/especie) — estas condiciones son internas y evaluadas por el motor.
+- Si no se especifica un tamaño, se considerará todo el resto de condiciones a las que se les sea posible aplicar.
+- Algunas habilidades pasivas pueden otorgar inmunidad o resistencia a efectos específicos.
+- Los efectos pueden curarse por tiempo o por habilidades/estructuras específicas; otros, como contaminación radiactiva u oxidación acelerada, son prácticamente incurables en el corto plazo.
+- Los valores exactos (porcentajes, duraciones) deben ser fijados y balanceados durante pruebas de juego. Las cifras en este documento son orientativas y derivan de las reglas discutidas.
+- Los efectos de frío y calor son aplicados globalmente según el entorno en el que se juegue.
+- Si una unidad requiere de una condición o que suceda algo específico para que active algo similar a una afinidad, pero que esta condición no es la misma que la
+mencionada comúnmente en la afinidad, entonces no es una afinidad, es un efecto de algún ataque/habilidad y no debe ser mencionado en ese apartado.
+- Los efectos son mencionados en la carta sí y solo sí todos sus ataque pueden aplicarlo, si todos los ataques de esta unidad cumplen las condiciones 
+mencionadas en el efecto, entonces va en el apartado, pero si solo una parte de los ataques tienen la posibilidad de hacerlo, entonces no se cumple con
+que la criatura en sí pueda aplicarlo, solo un ataque específico, entonces no va en este apartado.
+- Un efecto no debe tener un parametro de tiempo de duracion, eso es dado en el ataque que lo provoca.
+- Las palabras escritas, como Leve, Media, Alta, Mediano, Grande y otros, son mencionados para su identificación en descripción al usuario, en el motor, recibe datos.
+
+La correcta utilización de efectos son:
+	Sangrado por X segundos en Y% PV tras Z segundos a (Objetivo)
+	Veneno por X segundos en Y PV tras Z segundos a (Objetivo)
+	Infección de X% PV tras Y segundos, expandible a Z metros en H% hacia (Objetivo)
+	Miedo por X segundos a (Objetivo)
+	Confusión por X segundos en Y% a (Objetivo)
+	Desmoralización por X segundos en Y% a (Objetivo)
+	Parálisis por X segundos a (Objetivo)
+	Ralentización por X segundos en Y% a (Objetivo)
+	Debilitación por X segundos en Y% a (Objetivo)
+	Desgaste por X segundos en Y% a (Objetivo)
+	Ceguera por X segundos en Y% a (Objetivo)
+
+	Combustión
+	Oxidación acelerada en X%
+	Invalidación por X segundos
+	Infección orgánica
+
+	Frío
+	Calor
+
+La correcta utilización de afinidades son:
+	Dureza en X% hacia (Objetivo)
+	Fuerza en X% hacia (Objetivo)
+	Eficacia en X% ATK y Y% DEF hacia (Objetivo)
+
+	Crítico hacia (Objetivo)
+	
+	Reproche en X% tras perder Y% PV
+	Precaución en X% tras perder Y% PV
+
+	Empuje por X metros en Y segundos hacia (Objetivo)
+
+	Evasión en X% hacia (Objetivo)
+
+	Detección
+	Invisibilidad
+
+	Inmunidad a (Efecto)
+	Resistencia a (Efecto) en (probabilidades modificadas)

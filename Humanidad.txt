@@ -1,0 +1,5 @@
+Reglas sobre los humanos y sus creaciones en Imperio Astral
+- Los humanos son cartas de unidad, especiales de rol y tipo variables, nombre científico Homo sapiens y nombre común Humano.
+- Los humanos cuentan con múltiples variantes, todos Homo sapiens y su respectivo nombre común.
+- Las variantes de humanos cuentan con diferentes ataques, y a estos se les permite cambiar de rareza.
+- 
