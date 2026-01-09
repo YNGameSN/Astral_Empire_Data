@@ -2,7 +2,7 @@ Cómo leer documentos:
 
 Entre corchetes [ ]: elementos obligatorios.
 
-Entre paréntesis ( ): elementos opcionales.
+Entre paréntesis ( ): explicación y elementos opcionales.
 
 Palabras directas: elementos fijos que nunca cambian.
 
@@ -127,13 +127,15 @@ o :
 (efecto) | Únicamente si se cumple (condición específica Taxonómica - Momentánea) se podrá en X% de probabilidad.
 Además se puede usar Mientras y Hasta, para definir tiempo o condición.
 
-Para modificaciones auto aplicadas no se usa la conjugación Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño técnicos), es reemplazada con:
-Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valor 
+Para modificaciones auto aplicadas no se usa la conjugación Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) | Probabilidad, es reemplazada con:
+Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valores | Probabilidad
 
 Para modificaciones de atributos propios o ajenos, usar:
-Atributo (a cambiar) | (+ / -) | Valor 
+Atributo (a cambiar) | (+ / -) | Valores | Probabilidad
 
 Todos, la forma base y derivados, pueden o no llevar condición.
+
+Los Valores son las cantidades numéricas respectivas por el efecto o afinidad a aplicar.
 
 Para los ataques desbloqueables es opcional colocar como primer dato antes del nombre, qué condiciones se necesita para el desbloqueo.
 
@@ -169,6 +171,7 @@ Descripción (Visible): [Descripción para el usuario]
 Descripción (Tecnico): [Condiciones de activación y efectos exactos]  
 
 Ataque 1 (Predeterminado):  
+  - Condición [Principal | Desbloqueable]
   - Nombre: [Nombre genérico o específico]  
   - Daño: [Entero múltiplo de 10]  
   - Tipo de Ataque: [Tipo de Ataque]
@@ -179,7 +182,7 @@ Ataque 1 (Predeterminado):
   - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
 
 Ataque 2: (Rellenar solo si es Soldado (desbloqueable / Secundario), Obrero > Ultra Épico, o Táctico)
-  - Condición [(Desbloqueable | Secundario)]
+  - Condición [Desbloqueable | Secundario]
   - Nombre: [Nombre del ataque]  
   - Daño: [Entero múltiplo de 10]  
   - Tipo de Ataque: [Tipo de Ataque]
@@ -201,7 +204,7 @@ Ataque 3: (Rellenar solo si es Soldado >= Legendario o Táctico >= Épico (desbl
   - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
 
 Lista de Efectos y Afinidades (Visible): [Lista de efectos que se aplican en el formato de correcta muestra de Efectos y Afinidades]
-Lista de Efectos y Afinidades (Técnico): [Lista de efectos que se aplican con: Nombre | Valor | Objetivo (Taxonomía/Subrasgo/Tamaño técnicos (si es necesario))]
+Lista de Efectos y Afinidades (Técnico): [Lista de efectos que se aplican de forma técnica]
 
 Construcción: [Lista de nombres de estructuras globalmente construibles | Dejar vacío si no es obrero]  
 
@@ -210,4 +213,5 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
