@@ -267,6 +267,8 @@ Detección
 
 FORMULARIOS BASE
 
+---------------------
+
 Nombre Científico: Lasius niger  
 Nombre Común: Hormiga de jardín  
 Categoría: Unidad  
@@ -283,7 +285,7 @@ Defensa (DEF): 30
 Velocidad: 0.5 m/s  
 Precisión: 78%  
 Radio de Visión: 3 m  
-Tamaño: XXS   
+Tamaño: XXS  
 Taxonomía: Hymenoptera - Formicidae - Lasius - Lasius niger  
 
 Coste de Despliegue: 40  
@@ -294,22 +296,26 @@ Tiempo de Despliegue: 4 s
 Nombre de Habilidad: --  
 Tipo: --  
 Tiempo de Refresco: --  
-Descripción (Visible): --
-Descripción (Técnica): --
+Tiempo de Actividad: --  
+Descripción (Visible): --  
+Descripción (Técnico): --  
 
 Ataque 1 (Predeterminado):  
+- Condición: Principal  
 - Nombre: Mordisco  
 - Daño: 20  
-- Tipo de Ataque: Directo (Individual)
-- Rango de Ataque: 0.08m
+- Tipo de Ataque: Directo (Individual)  
+- Rango de Ataque: 0.08 m  
 - Tiempo de Refresco: 1.5 s  
 - Duración de animación de ataque: 0.5 s  
-- Descripción: Realiza un cierre agresivo con sus mandíbulas.
+- Descripción: Realiza un cierre agresivo con sus mandíbulas sobre el objetivo.  
+- Efectos únicos de ataque: --  
 
-Efectos únicos de ataque: --  
+Ataque 2: --  
+Ataque 3: --  
 
-Lista de Efectos y Afinidades (Visible): --
-Lista de Efectos y Afinidades (Técnico): --
+Lista de Efectos y Afinidades (Visible): --  
+Lista de Efectos y Afinidades (Técnico): --  
 
 Construcción:  
 - Lista derivada del mazo del jugador  
@@ -318,8 +324,9 @@ Sub Rasgos:
 - Insecto  
 - Terrestre  
 
-Núcleo:
- - Animal
+Núcleo:  
+- Animal  
+
 
 ---------------------
 
@@ -962,4 +969,5 @@ EJEMPLOS DE HABILIDADES
 EJEMPLOS DE INTERACCIONES PARA UNIDADES
 
 (Aún no)
+
 
