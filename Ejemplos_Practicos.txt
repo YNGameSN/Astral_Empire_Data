@@ -300,7 +300,7 @@ Tiempo de Actividad: --
 Descripción (Visible): --  
 Descripción (Técnico): --  
 
-Ataque 1 (Predeterminado):  
+Ataque 1:  
 - Condición: Principal  
 - Nombre: Mordisco  
 - Daño: 20  
@@ -327,7 +327,6 @@ Sub Rasgos:
 Núcleo:  
 - Animal  
 
-
 ---------------------
 
 Nombre Científico: Solenopsis invicta  
@@ -338,12 +337,12 @@ Rol: Soldado
 Tipo: Presa  
 
 Descripción Breve:  
-Extremadamente agresiva, conocida por su ferocidad y capacidad para invadir territorios.  
-Su organización y número compensan su tamaño.  
+Extremadamente agresiva, la hormiga de fuego es conocida por su ferocidad y capacidad para invadir y dominar territorios.  
+Su organización y número compensan su tamaño, convirtiéndola en una amenaza letal para unidades pequeñas y medianas.  
 
 Puntos de Vida (PV): 240  
 Defensa (DEF): 140  
-Velocidad: 0.7 m/s    
+Velocidad: 0.7 m/s  
 Precisión: 83%  
 Radio de Visión: 5 m  
 Tamaño: XXS  
@@ -358,35 +357,42 @@ Nombre de Habilidad: Enjambre ígneo
 Tipo: Pasiva  
 Tiempo de Refresco: --  
 Tiempo de Actividad: --  
-Descripción (Visible): Si hay trece o más Solenopsis invicta en un radio medio, su velocidad de ataque aumenta un 20% mientras permanezcan agrupadas.
-Descripción (Técnica): 
-- Tiempo de Refresco (1) | Ninguno | - | 20% | -  Sí y solo sí Hay 13 Solenopsis invicta En 2m 
-- Tiempo de Refresco (2) | Ninguno | - | 20% | -  Sí y solo sí Hay 13 Solenopsis invicta En m 
+Descripción (Visible):  
+- Si hay trece o más hormigas de fuego en un radio medio, su velocidad de ataque aumenta un 20% mientras permanezcan agrupadas.  
+Descripción (Técnico):  
+- Tiempo de Refresco (1) | Ninguno | - | 20% | Condición: 13 Solenopsis invicta en 2m  
+- Tiempo de Refresco (2) | Ninguno | - | 20% | Condición: 13 Solenopsis invicta en 2m  
 
-Ataque 1 (Predeterminado):  
+Ataque 1:  
+- Condición: Principal  
 - Nombre: Mordisco  
 - Daño: 80  
+- Tipo de Ataque: Directo (Individual)  
+- Rango de Ataque: 0.08 m  
 - Tiempo de Refresco: 0.25 s  
 - Duración de animación de ataque: 0.5 s  
-- Descripción: Individualmente débil, resulta efectivo para el hostigamiento en grupo. 
+- Descripción: Realiza un cierre agresivo con sus mandíbulas.  
+- Efectos únicos de ataque: --  
 
-Ataque 2 (Desbloqueable):  
+Ataque 2:  
+- Condición: Desbloqueable  
 - Nombre: Picadura  
 - Daño: 120  
+- Tipo de Ataque: Directo (Individual)  
+- Rango de Ataque: 0.1 m  
 - Tiempo de Refresco: 0.25 s  
 - Duración de animación de ataque: 1.0 s  
-- Descripción: Incurva su abdomen para clavar el aguijón e inyectar una toxina irritante.  
-	Puede causar veneno leve por unos segundos.
-- Efectos únicos de ataque:
-	Veneno | 3s - 20 - 0.5s | Núcleo: Animal (MS) - (S) - (XS) - (XXS)
+- Descripción: Incurva su abdomen para clavar el aguijón e inyectar una toxina irritante. Puede causar veneno leve por unos segundos.  
+- Efectos únicos de ataque:  
+  - Veneno | 3s - 20 - 0.5s | Núcleo: Animal (MS-S-XS-XXS)  
 
 Lista de Efectos y Afinidades (Visible):  
 - Fuerza en 20% hacia Insectos Pequeños  
 - Inmunidad al calor  
 
 Lista de Efectos y Afinidades (Técnico):  
-- Fuerza | 20% | Taxonomía: Insecta (S) - (XS) - (XXS)
-- Inmunidad | -- | Calor  
+- Fuerza | 20% | Taxonomía: Insecta (S-XS-XXS)  
+- Inmunidad | Calor  
 
 Construcción: --  
 
@@ -394,8 +400,8 @@ Sub Rasgos:
 - Insecto  
 - Terrestre  
 
-Núcleo:
- - Animal
+Núcleo:  
+- Animal  
 
 ---------------------
 
@@ -969,5 +975,6 @@ EJEMPLOS DE HABILIDADES
 EJEMPLOS DE INTERACCIONES PARA UNIDADES
 
 (Aún no)
+
 
 
