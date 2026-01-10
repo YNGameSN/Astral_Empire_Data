@@ -173,7 +173,7 @@ Tiempo de Actividad: [Segundos (Si es necesario)]
 Descripción (Visible): [Descripción para el usuario]
 Descripción (Tecnico): [Condiciones de activación y efectos exactos]  
 
-Ataque 1 (Predeterminado):  
+Ataque 1:  
   - Condición [Principal | Desbloqueable]
   - Nombre: [Nombre genérico o específico]  
   - Daño: [Entero múltiplo de 10]  
@@ -184,7 +184,7 @@ Ataque 1 (Predeterminado):
   - Descripción: [Detalles básicos del golpe] 
   - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
 
-Ataque 2: (Rellenar solo si es Soldado (desbloqueable / Secundario), Obrero > Ultra Épico, o Táctico)
+Ataque 2: (Rellenar solo si es Soldado, Obrero > Ultra Épico, o Táctico)
   - Condición [Desbloqueable | Secundario]
   - Nombre: [Nombre del ataque]  
   - Daño: [Entero múltiplo de 10]  
@@ -195,7 +195,7 @@ Ataque 2: (Rellenar solo si es Soldado (desbloqueable / Secundario), Obrero > Ul
   - Descripción: [Detalles básicos del golpe]  
   - Efectos únicos de ataque: [Efectos que tiene el ataque (únicos de este) descritos de forma técnica] 
 
-Ataque 3: (Rellenar solo si es Soldado >= Legendario o Táctico >= Épico (desbloqueable / Secundario))
+Ataque 3: (Rellenar solo si es Soldado >= Legendario o Táctico >= Épico)
   - Condición [Desbloqueable | Secundario]
   - Nombre: [Nombre del ataque]  
   - Daño: [Entero múltiplo de 10]  
@@ -216,6 +216,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
