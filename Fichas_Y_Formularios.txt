@@ -125,7 +125,8 @@ o :
 (efecto) | Si se da en X% de probabilidad.
 o :
 (efecto) | Únicamente si se cumple (condición específica Taxonómica - Momentánea) se podrá en X% de probabilidad.
-Además se puede usar Mientras y Hasta, para definir tiempo o condición.
+
+Además se puede usar Mientras, Hasta y Durante, para definir tiempo de actividad, finalización u otra interacción.
 
 Para describir técnicamente un efecto o afinidad, se usa: Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) | Probabilidad | Condición 
 Para modificaciones de atributos o efectos (de combate, afinidad u otro cambio externo) se usa:
@@ -215,6 +216,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
