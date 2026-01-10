@@ -136,6 +136,8 @@ Atributo (a cambiar) | (+ / -) | Valores | Probabilidad | Condición
 
 Todos, la forma base y derivados, pueden o no llevar condición.
 
+Las condiciones pueden decirse en su respectivo apartado, su nombre, sus valores y, para múltiples condiciones, separar con " - " 
+
 Los Valores son las cantidades numéricas respectivas por el efecto o afinidad a aplicar.
 
 Para los ataques desbloqueables es opcional colocar como primer dato antes del nombre, qué condiciones se necesita para el desbloqueo.
@@ -214,6 +216,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
