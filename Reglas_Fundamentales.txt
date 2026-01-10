@@ -370,7 +370,7 @@ DATOS
 
 SUB RASGOS
   Los sub rasgos son atributos que sirven para caracterizar a una carta sin mencionar lo otorgado directamente.
-  Los sub rasgos son apreciaciones que puede tener una unidad pero no está visiblemente resaltante, afecta en muchos aspectos de importancia.
+  Los sub rasgos son apreciaciones que puede tener una unidad pero no está visible directamente, afecta en muchos aspectos de importancia.
   Los sub rasgos sirven como apreciación visual rápida para identificación del jugador.
   Los sub rasgos pueden tener ser afectados por factores externos si es posible hacerlo.
   Los sub rasgos pueden ser usados como objetivos a efectos.
@@ -509,5 +509,6 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
