@@ -300,7 +300,7 @@ Tiempo de Actividad: --
 Descripción (Visible): --  
 Descripción (Técnico): --  
 
-Ataque 1:  
+Ataque 1 (Predeterminado):  
 - Condición: Principal  
 - Nombre: Mordisco  
 - Daño: 20  
@@ -308,7 +308,7 @@ Ataque 1:
 - Rango de Ataque: 0.08 m  
 - Tiempo de Refresco: 1.5 s  
 - Duración de animación de ataque: 0.5 s  
-- Descripción: Realiza un cierre agresivo con sus mandíbulas sobre el objetivo.  
+- Descripción: Cierra sus mandíbulas sobre el objetivo.   
 - Efectos únicos de ataque: --  
 
 Ataque 2: --  
@@ -384,7 +384,7 @@ Ataque 2:
 - Duración de animación de ataque: 1.0 s  
 - Descripción: Incurva su abdomen para clavar el aguijón e inyectar una toxina irritante. Puede causar veneno leve por unos segundos.  
 - Efectos únicos de ataque:  
-  - Veneno | 3s - 20 - 0.5s | Núcleo: Animal (MS-S-XS-XXS)  
+  - Veneno | 3s - 20 - 0.5s | Núcleo: Animal - Tamaño: MS-S-XS-XXS 
 
 Lista de Efectos y Afinidades (Visible):  
 - Fuerza en 20% hacia Insectos Pequeños  
@@ -763,8 +763,7 @@ Aletazo (Megaptera novaeangliae) : 4990 - 45.0s
 EJEMPLOS DE DESCRIPCIONES DE ATAQUES
 
 Mordisco (Lasius niger)  
-Cierra sus mandíbulas sobre el objetivo.  
-Individualmente débil, resulta efectivo para el hostigamiento en grupo.  
+Cierra sus mandíbulas sobre el objetivo.
 
 Mordisco (Solenopsis invicta)  
 Realiza un cierre agresivo con sus mandíbulas.
@@ -975,6 +974,7 @@ EJEMPLOS DE HABILIDADES
 EJEMPLOS DE INTERACCIONES PARA UNIDADES
 
 (Aún no)
+
 
 
 
