@@ -128,7 +128,7 @@ o :
 
 Además se puede usar Mientras, Hasta y Durante, para definir tiempo de actividad, finalización u otra interacción.
 
-Para describir técnicamente un efecto o afinidad, se usa: Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) | Probabilidad | Condición 
+Para describir técnicamente un efecto o afinidad, se usa: Nombre | Valores | Objetivo (Taxonomía/Subrasgo/Tamaño) 
 Para modificaciones de atributos o efectos (de combate, afinidad u otro cambio externo) se usa:
 Atributo (a cambiar) | Efecto (a aplicar / si es necesario) | (+ / -) | Valores | Probabilidad | Condición 
 Si no aplica un efecto:
@@ -216,6 +216,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
