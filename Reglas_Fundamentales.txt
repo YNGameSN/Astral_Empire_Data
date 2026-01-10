@@ -369,6 +369,7 @@ DATOS
   
 
 SUB RASGOS
+  Los sub rasgos son atributos que sirven para caracterizar a una carta sin mencionar lo otorgado directamente.
   Los sub rasgos son apreciaciones que puede tener una unidad pero no está visiblemente resaltante, afecta en muchos aspectos de importancia.
   Los sub rasgos sirven como apreciación visual rápida para identificación del jugador.
   Los sub rasgos pueden tener ser afectados por factores externos si es posible hacerlo.
@@ -379,6 +380,7 @@ SUB RASGOS
   Los sub rasgos basados en taxonomía no reemplazan la taxonomía como atributo de cada unidad, que es la usada para aplicar efectos.
   Los sub rasgos basados en taxonomía permiten ver visualmente a los usuarios la clase principal de su unidad sin tener que recurrir a sus características.
   Los sub rasgos basados en taxonomía permiten acostumbrar al jugador a ciertas interacciones y las asocie a estas.
+  Los efectos / habilidades / cambios otorgados en los sub rasgos nunca deben ser mencionados en los apartados principales de la carta, pues son caráctiristicos del sub rasgo.
   -----
   - Mamífero
 	Esta carta representa una unidad integrante de la clase Mammalia (Ma)
@@ -507,4 +509,5 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
