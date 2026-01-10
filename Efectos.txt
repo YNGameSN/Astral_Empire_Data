@@ -152,6 +152,7 @@ Estos efectos son condicionales de entorno o hechizo, no se aplican por ataques 
 ------------------------------------------------
 Las inmunidades bloquean por completo ciertos efectos negativos. Deben definirse en la unidad o estructura que la posea, en la descripción general
 o en su mejora que la desbloquea en campo.
+Una inmunidad es una afinidad única por cada efecto al cual se dirige, no una afinidad con distintos objetivos. 
 
 - Inmunidad al sangrado
 - Inmunidad al veneno
