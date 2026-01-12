@@ -388,20 +388,24 @@ SUB RASGOS
   - Ave
 	Esta carta representa una unidad integrante de la clase Aves (Av)
 	Siempre posee una probabilidad base de esquivar ataques en 3%
+
   - Reptil
 	Esta carta representa una unidad integrante de la clase Reptilia (Re)
 	Esta unidad recibe un 40% más al efecto de Frío.
 	Esta unidad recibe un -80% más al efecto de Calor.
 	Esta unidad tiene inmunidad a Desmoralización.
+
   - Anfibio
 	Esta carta representa una unidad integrante de la clase Amphibia (Am)
 	Esta unidad tiene inmunidad a Desmoralización.
 	Esta unidad tiene un aumento de 30% de velocidad adicional en agua.
 	Tiene más 20% a efectos de Calor y Frío.
+
   - Pez
 	Esta carta representa una unidad integrante de la clase Actinopterygii (Ac)
 	Si esta carta recibe daño fuera del agua, recibe 50% más de daño.
 	Esta unidad puede esquivar ataques en 4%.
+
   - Insecto
 	Esta carta representa una unidad integrante de la clase Insecta (In)
 	Esta unidad puede esquivar ataques en 1%.
@@ -424,17 +428,23 @@ SUB RASGOS
 
   -  Acuático
 	Esta carta puede realizar sus funciones únicamente en agua.
-	Unidad hereda "Nadar": Desplazamiento exclusivo por agua a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
+	Unidad hereda "Nadar": Desplazamiento exclusivo por agua a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%, siempre en una profundidad H, atacando en dirección K.
+	Unidad hereda "Profundidad": Se está a un nivel de profundidad X, donde se puede atacar a dirección Y.
 
   - Semiacuático
 	Esta carta puede realizar sus funciones solo en tierra y agua.
-	Unidad hereda "Traslación de agua a tierra": Desplazamiento mixto con velocidades Xm/s en tierra y Ym/s en agua; tras Z segundos en cualquier medio, la unidad debe regresar 
-	a su entorno H.
+	Unidad hereda "Traslación de agua a tierra": Desplazamiento mixto con velocidades Xm/s en tierra y Ym/s en agua; tras Z segundos en cualquier medio, la 
+	unidad debe regresar a su entorno H.
+
+  - Subterráneo
+	Esta carta puede realizar sus funciones solo bajo tierra.
+	Unidad hereda "Excavar": La unidad se mantendrá bajo tierra en una profundidad X, tras Y segundos, la unidad saldrá y perderá esta habilidad hasta ser desplazada nuevamente, 
+	mientras no esté activa esta habilidad, esta unidad no puede pasar a ser Invisible, además, solo puede atacar en una dirección SAME.
 
   - Aéreo
 	Esta carta puede realizar sus funciones únicamente en aire.
-	Unidad hereda "Volar": La unidad no puede ser atacada por ataques cuerpo a cuerpo desde tierra mientras la habilidad esté activa. Ataques de largo alcance 
-	pueden afectarle. Tras X segundos, la unidad se posará en tierra y perderá temporalmente esta capacidad hasta ser desplazada nuevamente.
+	Unidad hereda "Volar": La unidad no puede ser atacada por ataques cuerpo a cuerpo desde tierra mientras la habilidad esté activa, ataques de largo alcance 
+	pueden afectarle. Tras X segundos, la unidad se posará en tierra y perderá esta habilidad hasta ser desplazada nuevamente.
 
   - Centro de Mando
 	Esta estructura hereda "Punto de reunión": Los obreros en campo pueden usar esta estructura para llevar los recursos y que estos, tras X segundos, estén como
@@ -509,6 +519,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
