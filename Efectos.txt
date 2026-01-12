@@ -9,7 +9,7 @@ Estos efectos son aplicados por ataques o habilidades y afectan unidades en comb
 
 - Sangrado
   Qué hace: Pérdida continua de X% de PV tras Y segundos, solo se aplica sí y solo sí el 
-  daño del ataque supera un Porcentaje Z de la Defensa Actual del objetivo.
+  daño del ataque supera un Porcentaje Z de la Defensa Actual del objetivo, mencionado de forma técnica en Posibilidad.
   Cura principal: Tiempo
   Notas: Nunca causa muerte, puede dejar a la vida en mínimo.
 
@@ -207,7 +207,7 @@ que la criatura en sí pueda aplicarlo, solo un ataque específico, entonces no 
 - Las palabras escritas, como Leve, Media, Alta, Mediano, Grande y otros, son mencionados para su identificación en descripción al usuario, en el motor, recibe datos.
 
 La correcta utilización de efectos son:
-	Sangrado superando X% de DEF por Y segundos en Z% PV tras H segundos a (Objetivo) 
+	Sangrado por X segundos en Y% PV tras Z segundos a (Objetivo) 
 	Veneno por X segundos en Y PV tras Z segundos a (Objetivo)
 	Infección de X% PV tras Y segundos, expandible a Z metros en H% hacia (Objetivo)
 	Miedo por X segundos a (Objetivo)
