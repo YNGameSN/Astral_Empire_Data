@@ -136,11 +136,11 @@ Atributo (a cambiar) | (+ / -) | Valores | Probabilidad | Condición
 
 Todos, la forma base y derivados, pueden o no llevar condición.
 
-Las condiciones pueden decirse en su respectivo apartado, su nombre, sus valores y, para múltiples condiciones, separar con " - " 
+Las condiciones pueden decirse en su respectivo apartado, su nombre y sus valores.
+
+Para múltiples condiciones o parámetros a mandar por cada uno recibido, separar con " - " .
 
 Los Valores son las cantidades numéricas respectivas por el efecto o afinidad a aplicar.
-
-Para los ataques desbloqueables es opcional colocar como primer dato antes del nombre, qué condiciones se necesita para el desbloqueo.
 
 Unidad
 
@@ -155,7 +155,7 @@ Descripción Breve: [Texto conciso sobre naturaleza, hábitat, dieta e impacto f
 
 Puntos de Vida (PV): [Entero múltiplo de 10]  
 Defensa (DEF): [Entero múltiplo de 10]  
-Velocidad: [Valor en m/s (sin bonificadores externos)]  
+Movimiento: [Valor en m/s sin bonificadores externos de los parámetros promedio que recibe el sub rasgo de movimiento asignado]  
 Precisión: [Valor porcentual base sobre 100%]  
 Radio de Visión: [Valor entero en metros]  
 Tamaño: [XXS | XS | S | MS | M | ML | L | XL | XXL]  
@@ -216,6 +216,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
