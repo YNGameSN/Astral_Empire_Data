@@ -450,8 +450,8 @@ SUB RASGOS
 
   - Subterráneo
 	Esta carta puede realizar sus funciones solo bajo tierra.
-	Unidad hereda "Excavar": La unidad se mantendrá bajo tierra en una profundidad X, tras Y segundos, la unidad saldrá y perderá esta habilidad hasta ser desplazada nuevamente, 
-	mientras no esté activa esta habilidad, esta unidad no puede pasar a ser Invisible, además, solo puede atacar en una dirección SAME.
+	Unidad hereda "Excavar": La unidad se mantendrá bajo tierra en una profundidad X, tras Y segundos, la unidad saldrá y perderá esta habilidad hasta ser desplazada nuevamente, puede atacar a una dirección Z,
+	mientras no esté activa esta habilidad, esta unidad no puede pasar a ser Invisible.
 
   - Aéreo
 	Esta carta puede realizar sus funciones únicamente en aire.
@@ -531,6 +531,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
