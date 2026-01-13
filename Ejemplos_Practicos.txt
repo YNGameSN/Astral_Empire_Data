@@ -268,6 +268,8 @@ FORMULARIOS BASE
 
 ---------------------
 
+Ficha Técnica: Lasius niger  
+
 Nombre Científico: Lasius niger  
 Nombre Común: Hormiga de jardín  
 Categoría: Unidad  
@@ -281,16 +283,16 @@ Es la unidad base fundamental para la construcción y recolección de recursos e
 
 Puntos de Vida (PV): 150  
 Defensa (DEF): 30  
-Velocidad: 0.5 m/s  
+Movimiento: 0.5  
 Precisión: 78%  
-Radio de Visión: 3 m  
+Radio de Visión: 3  
 Tamaño: XXS  
 Taxonomía: Hymenoptera - Formicidae - Lasius - Lasius niger  
 
 Coste de Despliegue: 40  
 Tipo de Recurso: Esencia  
 Conocimiento Otorgado: 10  
-Tiempo de Despliegue: 4 s  
+Tiempo de Despliegue: 4  
 
 Nombre de Habilidad: --  
 Tipo: --  
@@ -299,15 +301,15 @@ Tiempo de Actividad: --
 Descripción (Visible): --  
 Descripción (Técnico): --  
 
-Ataque 1 (Predeterminado):  
-- Condición: Principal  
+Ataque 1 (Principal):  
 - Nombre: Mordisco  
 - Daño: 20  
 - Tipo de Ataque: Directo (Individual)  
-- Rango de Ataque: 0.08 m  
-- Tiempo de Refresco: 1.5 s  
-- Duración de animación de ataque: 0.5 s  
-- Descripción: Cierra sus mandíbulas sobre el objetivo.   
+- Rango de Ataque: 0.08  
+- Dirección de Ataque: SAME  
+- Tiempo de Refresco: 1.5  
+- Duración de animación de ataque: 0.5  
+- Descripción: Realiza un cierre agresivo con sus mandíbulas sobre el objetivo.  
 - Efectos únicos de ataque: --  
 
 Ataque 2: --  
@@ -994,6 +996,7 @@ EJEMPLOS DE HABILIDADES
 EJEMPLOS DE INTERACCIONES PARA UNIDADES
 
 (Aún no)
+
 
 
 
