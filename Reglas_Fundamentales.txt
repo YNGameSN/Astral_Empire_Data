@@ -35,6 +35,12 @@ UNIDADES
 		- Individual
 		- Área
 
+	Las direcciones de ataque (se puede tener más de uno):
+		- UP: Puede atacar un nivel de profundidad hacia arriba.
+		- DOWN: Puede atacar un nivel de profundidad hacia abajo.
+		- SAME: Puede atacar solo en su mismo nivel.
+		- ALL: Puede atacar en cualquier nivel.
+
 	Los tipos de ataques pueden ser usados como condición.
 	Por naturaleza, ningún efecto de combate o afinidad se basa en los tipos de ataque como condición, así que son exclusivos de los Efectos Especiales.
 	
@@ -68,17 +74,10 @@ UNIDADES
 		Subterráneo
 		Semiacuático
 		Aéreo
-	En la movilidad existen sub atributos:
-		Los niveles de profundidad:
-			- Superficie: Mide entre 0m y 1m en tierra, y la zona Epipelágica en agua.
-			- Mediana: Mide entre 1m y 5m en tierra, y la zona Mesopelágica en agua.
-			- Profunda: Mide 5~ en tierra, y representa la zona Batipelágica en agua.
-
-		Las direcciones de ataque (se puede tener más de uno):
-			- UP: Puede atacar un nivel de profundidad hacia arriba.
-			- DOWN: Puede atacar un nivel de profundidad hacia abajo.
-			- SAME: Puede atacar solo en su mismo nivel.
-			- ALL: Puede atacar en cualquier nivel.
+	En la movilidad existen los niveles de profundidad:
+		- Superficie: Mide entre 0m y 1m en tierra, y la zona Epipelágica en agua.
+		- Mediana: Mide entre 1m y 5m en tierra, y la zona Mesopelágica en agua.
+		- Profunda: Mide 5~ en tierra, y representa la zona Batipelágica en agua.
 
     - LA PRECISIÓN
 	La precisión se menciona de forma breve en la carta, sin exigir atención prioritaria del jugador. Representa el porcentaje de probabilidad general de
@@ -531,6 +530,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
