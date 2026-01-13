@@ -144,6 +144,8 @@ Para múltiples parámetros a mandar por cada uno recibido, separar con " - ".
 
 Los Valores son las cantidades numéricas respectivas por el efecto o afinidad a aplicar.
 
+Los datos dados deben tener su diminutivo correspondiente (m, s, m/s)
+
 Unidad
 
 Nombre Científico: [Nombre en latín o designación técnica]  
@@ -221,6 +223,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
