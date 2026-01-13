@@ -138,7 +138,9 @@ Todos, la forma base y derivados, pueden o no llevar condición.
 
 Las condiciones pueden decirse en su respectivo apartado, su nombre y sus valores.
 
-Para múltiples condiciones o parámetros a mandar por cada uno recibido, separar con " - " .
+Los parámetros a enviar sean cuales seán, si son más de uno, solo se mandan los valores.
+
+Para múltiples parámetros a mandar por cada uno recibido, separar con " - ".
 
 Los Valores son las cantidades numéricas respectivas por el efecto o afinidad a aplicar.
 
@@ -179,6 +181,7 @@ Ataque 1:
   - Daño: [Entero múltiplo de 10]  
   - Tipo de Ataque: [Tipo de Ataque]
   - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Dirección de Ataque: [UP | DOWN | SAME | ALL]
   - Tiempo de Refresco: [Segundos]  
   - Duración de animación de ataque [Segundos]
   - Descripción: [Detalles básicos del golpe] 
@@ -190,6 +193,7 @@ Ataque 2: (Rellenar solo si es Soldado, Obrero > Ultra Épico, o Táctico)
   - Daño: [Entero múltiplo de 10]  
   - Tipo de Ataque: [Tipo de Ataque]
   - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Dirección de Ataque: [UP | DOWN | SAME | ALL]
   - Tiempo de Refresco: [Segundos]  
   - Duración de animación de ataque [Segundos]
   - Descripción: [Detalles básicos del golpe]  
@@ -201,6 +205,7 @@ Ataque 3: (Rellenar solo si es Soldado >= Legendario o Táctico >= Épico)
   - Daño: [Entero múltiplo de 10]  
   - Tipo de Ataque: [Tipo de Ataque]
   - Rango de Ataque: [Distancia efectiva a realizar el daño en metros]
+  - Dirección de Ataque: [UP | DOWN | SAME | ALL]
   - Tiempo de Refresco: [Segundos]  
   - Duración de animación de ataque [Segundos]
   - Descripción: [Detalles básicos del golpe] 
@@ -216,6 +221,7 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
 
 
