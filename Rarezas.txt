@@ -38,8 +38,3 @@ La escala aumenta al nivel de Orden Taxonómico. Estas cartas simbolizan la supr
 Mítico
 Anomalías que existen fuera de la lógica natural o tecnológica estándar. Este nivel se reserva para mutaciones extremas, híbridos artificiales o fenómenos que alteran las leyes físicas del juego. Son hitos de diseño únicos; sus mecánicas no buscan el equilibrio convencional, sino la introducción de condiciones excepcionales que rompen la simetría de la partida.
 
------------------------------------------------------------------------------------
-
-CONSIDERACIONES SOBRE LOS HECHIZOS
-
-A diferencia de las unidades que responden a la taxonomía, la rareza en los hechizos se define por la dificultad de adquisición y la complejidad del fenómeno invocado. Un hechizo de rareza baja representa eventos comunes o de fácil replicación, mientras que las rarezas altas implican alteraciones del entorno que requieren condiciones complejas para ser desplegadas o descubiertas.
