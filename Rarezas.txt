@@ -1,7 +1,7 @@
 Rarezas de Imperio Astral
 -----------------------------------------------------------------------------------
 
-La rareza en Imperio Astral actúa como el indicador principal de la complejidad biológica o tecnológica de una carta. Este valor no determina arbitrariamente el poder de combate, sino que establece cuántas herramientas mecánicas (ataques, habilidades o funciones) posee la entidad para interactuar con el entorno. A mayor rareza, mayor es la autonomía de la unidad, más compleja es la obtención del hechizo y más amplia es su representación taxonómica.
+La rareza en Imperio Astral actúa como el indicador principal de la complejidad biológica o tecnológica de una carta. Este valor no determina arbitrariamente el poder de combate, sino que establece cuántas herramientas mecánicas (ataques, habilidades o funciones) posee la entidad para interactuar con el entorno. A mayor rareza, mayor es la autonomía de la estructura, más compleja es la obtención del hechizo y más amplia es la representación taxonómica de unidad.
 -----------------------------------------------------------------------------------
 NIVELES DE CLASIFICACIÓN
 
