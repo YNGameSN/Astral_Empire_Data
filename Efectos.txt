@@ -98,7 +98,7 @@ Efectos que alteran stats o comportamiento que posee una unidad y son aplicadas 
   Qué hace: Aumenta daño hacia un grupo taxonómico y tamaño específico (5–80%).
 
 - Crítico
-  Qué hace: Probabilidad base 5%; daño de área crítico representa 300% del daño en área seleccionada.
+  Qué hace: X% de probabilidad de realizar daño de área crítico que representa el 200% del daño en área seleccionada.
   Notas: Aplicable principalmente a unidades con ataques en área, puede tener condiciones
 
 - Eficacia
@@ -232,7 +232,7 @@ La correcta utilización de afinidades son:
 	Fuerza en X% hacia (Objetivo)
 	Eficacia en X% ATK y Y% DEF hacia (Objetivo)
 
-	Crítico hacia (Objetivo)
+	Crítico hacia (Objetivo) en X%.
 	
 	Reproche en X% tras perder Y% PV
 	Precaución en X% tras perder Y% PV
