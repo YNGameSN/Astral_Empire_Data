@@ -128,9 +128,7 @@ Los tipos se definen según la categoría, influyendo directamente en cuáles es
 
 ───────────────────────────────────────────────
 
-📜 ESTRUCTURA FINAL DE CARTA
-
-Toda carta debe presentarse siguiendo el formato oficial:
+Toda carta debe presentarse inicialmente siguiendo el formato oficial:
 
 [CATEGORÍA] – [RAREZA] – [ROL] – [TIPO]
 
