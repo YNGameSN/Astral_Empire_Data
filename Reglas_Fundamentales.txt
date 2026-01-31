@@ -26,8 +26,10 @@ UNIDADES
 	sistema general de simplificación y reconocimiento inmediato para el jugador.
 
 	Existen 2 Tipos de ataques:
-		- Directo: Representa un ataque cercano de cuyo rango no debe exceder lo visible en la respectiva animación. 
-		- A distancia: Representa un ataque que se es dado a una distancia corta o larga. Tiene un punto ciego realizado en la animación.
+		- Directo: Representa un ataque inflinjido sin interrupción cuyo rango no debe exceder lo visible en la respectiva animación. 
+		- De Rango: Representa un ataque que tiene uno o más puntos ciegos realizados en la respectiva animación.
+
+	Los tipos de ataques no tienen que ver obligatoriamente con el cómo se realice.
 	
 	Todo ataque debe tener un Decorador que acompaña al Tipo de Ataque.
 	
@@ -530,6 +532,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
