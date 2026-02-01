@@ -120,6 +120,10 @@ UNIDADES
 	     XL: 3.0 m ~ 6.0 m
 	     XXL: 6.0 m ~
 
+	  Los tamaños tienen un rango de detección, estas es la capacidad de una unidad de ver a otra:
+		XXS - xS NO VEN A XL - XXL
+		ML - XXL NO VEN A XXS - XS
+
 	Toda unidad debe poseer un coste asociado, el cual puede incluir Esencia, Conocimiento o Dinero según corresponda a la naturaleza de la carta.
 
 	Toda unidad debe otorgar un valor de Conocimiento al ser desplegada. Este valor puede ser fijo o proporcional a su vida máxima.
@@ -532,6 +536,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
