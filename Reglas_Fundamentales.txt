@@ -479,12 +479,12 @@ NÚCLEOS
 	
   -  Animal
  	Esta carta puede ser afectada por todos los efectos de combate.
- 	Indica una unidad viviente perteneciente a Animalia (An)
+ 	Indica una entidad viviente perteneciente a Animalia (An)
 
   - Vegetal
  	Esta carta no puede ser afectada por efectos de combate.
  	Esta carta puede ser afectada por efectos dirigidos a estructuras.
- 	Indica una estructura viviente perteneciente a Plantae (Pl)
+ 	Indica una entidad viviente perteneciente a Plantae (Pl)
 
   -  Tecnológico
 	Esta carta no puede ser afectada por algunos efectos de combate, independientemente de la carta.
@@ -536,6 +536,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
