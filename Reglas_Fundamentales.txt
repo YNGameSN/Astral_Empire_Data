@@ -154,22 +154,6 @@ ESTRUCTURAS
 	Las habilidades nunca sustituyen roles ni describen comportamientos naturales que la estructura ya posee por su tipo (biológica o no biológica). Su
 	finalidad es extender la capacidad de interacción estratégica de la estructura dentro del sistema RTS.
 
-  - LAS FUNCIONES
-	Las funciones representan el propósito operacional de la estructura en el campo, y dependen estrictamente del rol asignado. Cada estructura posee un
-	único rol que determina su comportamiento central: Productor, Soporte o Defensa.
-
-	- Función Productora:
-	  Una estructura productora puede engendrar, criar o entrenar unidades, mostrando al jugador las unidades compatibles disponibles en su mazo. Es el
-	  punto donde se produce el despliegue de nuevas unidades en campo, representando un lugar de origen, crecimiento o preparación.
-
-	- Función de Soporte:
-	  Una estructura de soporte permite desbloquear ataques, habilidades, mejoras o progresiones para unidades o estructuras aliadas. También permite
-	  aumentar características como vida o defensa, así como habilitar interacciones, dependencias o nuevas construcciones mediante gasto de recursos.
-
-	- Función Defensiva:
-	  Una estructura defensiva ejecuta ataques autónomos, semiautónomos o dirigidos contra enemigos en su rango de acción. Su carta describe su ataque,
-	  daño y tiempo de refresco, junto con las condiciones de activación si las tuviera.
-
   - UNIDADES DESPLEGABLES
 	Las unidades desplegables representan la lista de criaturas que pueden ser producidas por una estructura de rol Productor. Esta lista depende del mazo
 	del jugador y de la compatibilidad entre la estructura y la unidad. Si una unidad posee variantes desbloqueadas y existe más de una estructura capaz de
@@ -192,7 +176,7 @@ ESTRUCTURAS
 	Los desbloqueos pueden ser fantásticos si o solo sí tienen coherencia dentro de la justificación de la historia.
 
   - ATAQUES
-	Los ataques en estructuras existen únicamente en cartas con rol Defensivo. Un ataque debe poseer:
+	Los ataques en estructuras existen únicamente en cartas de tipo Defensa:
 
 	  Un nombre (genérico o contextual).
 	  Un valor de daño.
@@ -536,6 +520,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
