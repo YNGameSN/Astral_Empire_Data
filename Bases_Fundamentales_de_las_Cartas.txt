@@ -19,8 +19,8 @@ Existen tres categorías fundamentales:
 • ESTRUCTURA  
   Representa edificaciones u organismos fijos o raramente desplazables. Sirven de soporte, defensa o fuente de recursos.
   Las estructuras siempre deberán ser construidas para ser usadas normalmente, no hay estructuras usables que sean del entorno salvo justificación.
-  - Roles: Productor / Soporte / Defensa 
-  - Tipos: Biológica / No Biológica.
+  - Roles: Logístico / Combate / Táctico
+  - Tipos: Productor / Soporte / Defensa
 
 • HECHIZO  
   Representa manifestaciones efímeras o canalizadas que alteran el entorno o afectan a otras cartas, representan fenómenos naturales o artificiales sin invención
@@ -77,14 +77,14 @@ El rol determina cómo se relaciona con otras cartas del mismo ecosistema y cóm
 	    tiempo de despliegue, rango de ataque, efectos e inmunidades, junto con el tiempo de enfriamiento de cada uno de sus ataques.
 
 • ESTRUCTURAS
-  - Productor: Este rol se da cuando la estructura es capaz de engendrar, criar o entrenar unidades, siendo caracterizadas por su rol de despliegue de
-	    unidades en campo, representando el hogar de las criaturas en su edad temprana de crecimiento, hasta su liberación en campo tras el respectivo tiempo
-	    como adultos o disponibles para su salida.
-  - Soporte: Se da cuando la estructura es utilizada para desbloquear por su directa construcción alguna habilidad/ataque en una o varias unidades, pueda ser 
-	    usada como un lugar para aumentar características como vida, daño y defensa, o para desbloquear ataques, habilidades, interacciones y otros, usa la misma
-	    forma de gasto para aumento de características.
-  - Defensa: Se da cuando la estructura, de forma autónoma, semiautónoma, o manualmente, defiende de forma directa a los enemigos cercanos, posee un alcance, una 	    distancia de ataque y daño (además de lo base de una estructura de su tipo)
+  - Logístico: Este rol agrupa las estructuras dedicadas al sustento, la expansión y la administración de recursos. Representan la infraestructura económica necesaria para mantener el esfuerzo bélico. 
+		Su pérdida no reduce la fuerza de ataque inmediata, pero estrangula la capacidad de recuperación y crecimiento a largo plazo. Son los objetivos primarios para estrategias de desgaste económico.
 
+  - Combate: Este rol se da cuando la estructura tiene como finalidad directa la guerra, la proyección de fuerza o la protección territorial. Son la primera línea de contacto y defensa del imperio. 
+		Su función es convertir los recursos acumulados en fuerza para el frente de batalla y las zonas de control seguro.
+
+  - Táctico: Este rol define estructuras dedicadas a la especialización, la inteligencia y la ventaja cualitativa. No suelen aportar recursos brutos ni disparar directamente, sino que habilitan tecnologías, 
+		desbloquean evoluciones y otorgan sinergias que multiplican la eficiencia de las unidades Logísticas y Militares. Representan la inversión a futuro y la sofisticación del mazo.
 
 • HECHIZOS
   - Alterador: Modifica atributos, estados o capacidades de unidades y/o estructuras en el área del hechizo. Las modificaciones pueden ser positivas, negativas o
@@ -102,8 +102,8 @@ El rol determina cómo se relaciona con otras cartas del mismo ecosistema y cóm
 Determina el comportamiento base de la carta dentro de su categoría.  
 El tipo define las reglas de acción, despliegue y reacción en el campo.
 
-Los tipos se definen según la categoría, influyendo directamente en cuáles estarán disponibles.
-///
+Los tipos se definen según los Roles, influyendo directamente en cuáles estarán disponibles.
+
 • UNIDADES
   - Depredador: Este tipo es caracterizado por la naturaleza de quién la posee, solo otorgado sí y solo sí este animal caza u obtiene su alimento de alguna otra
 		especie como parte de una dieta, pueden ser cazadas también, pero este tipo se queda aunque lo sean. Distintivo de su habitad, y clave para asignar
@@ -112,14 +112,21 @@ Los tipos se definen según la categoría, influyendo directamente en cuáles es
 		efectos, inmunidades y reacciones con unidades aliadas o rivales.
   (Para ser depredador o presa es necesario validar que se tiene más, si la unidad forma parte de múltiples dietas más que objetivos de los cuales se alimenta ella,
    entonces es más considerado como presa, y así en viceversa)
-  - Simbionte: El tipo Simbionte abarca a todos los organismos que dependen directa o indirectamente de otros seres vivos para sobrevivir o beneficiarse, sin encajar   		estrictamente como presas o depredadores. Incluye las tres principales relaciones ecológicas: mutualismo, comensalismo y parasitismo.
+  - Simbionte: El tipo Simbionte abarca a todos los organismos que dependen directa o indirectamente de otros seres vivos para sobrevivir o beneficiarse, sin encajar 
+		estrictamente como presas o depredadores. Incluye las tres principales relaciones ecológicas: mutualismo, comensalismo y parasitismo.
   (Para ser un simbionte solo se necesita mantener una relación con algún otro ser vivo jugable o no, además de no caer en un tipo depredador o presa con sentido real)
 
 • ESTRUCTURAS
-  - Biológico: Son estructuras que, por su aparición en forma de vida (principalmente del reino Vegetal), es afectada más, o menos, por unidades aliadas o enemigas,
-	    posee características como vida, tiempo de construcción, tiempo de refresco del despliegue, efectos e inmunidades.
-  - No biológico: Son estructuras que no son nacidas como forma de vida, si no, construidas por obreros de cierta especie, siendo afectada más, o menos, por
-	    unidades aliadas o enemigas, posee características como vida, tiempo de construcción, tiempo de refresco del despliegue, efectos e inmunidades.
+  - Productor: Estructura activa caracterizada por generar un Output tangible tras un ciclo de tiempo determinado. Dependiendo de su Rol, este output puede variar: 
+		Si es Militar, engendra y despliega unidades de combate; si es Logístico, extrae o procesa recursos; si es Táctico, puede generar unidades especializadas o Centros de mando. Representa siempre un 
+		punto de origen y creación.
+
+  - Soporte: Estructura pasiva o de habilitación que no genera entidades móviles ni ataca, sino que mejora, almacena o modifica las variables de su entorno. Funciona como un contenedor de mejoras o un 
+		habilitador de capacidades.
+
+  - Defensa: Estructura con capacidad de interacción hostil o interrupción directa contra entidades enemigas dentro de un rango específico. Se caracteriza por poseer valores de ataque, cadencia y alcance 
+		autónomo o semiautónomo, sin embargo, no está obligado a llevar todos los valores, dependiendo de la estructura.
+
 • HECHIZOS
   - Instantáneo: Hechizos desplegados en el mapa, que al aparecer lo hacen directamente en el lugar de aparición, poseen características como rango de efecto,
 	    duración de efecto, tiempo de refresco y daño
