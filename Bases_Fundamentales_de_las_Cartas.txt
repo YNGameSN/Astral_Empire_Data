@@ -26,7 +26,7 @@ Existen tres categorías fundamentales:
   Representa manifestaciones efímeras o canalizadas que alteran el entorno o afectan a otras cartas, representan fenómenos naturales o artificiales sin invención
   externa o fuera de lugar.  
   No poseen forma física ni permanencia propia.
-  - Roles: Alterador, Destructor, Neutral.
+  - Roles: Ofensivo, Táctico, Territorial.
   - Tipos: Instantáneo / No Instantáneo.
 
 ───────────────────────────────────────────────
@@ -87,14 +87,14 @@ El rol determina cómo se relaciona con otras cartas del mismo ecosistema y cóm
 		desbloquean evoluciones y otorgan sinergias que multiplican la eficiencia de las unidades Logísticas y Militares. Representan la inversión a futuro y la sofisticación del mazo.
 
 • HECHIZOS
-  - Alterador: Modifica atributos, estados o capacidades de unidades y/o estructuras en el área del hechizo. Las modificaciones pueden ser positivas, negativas o
-	    mixtas y deben describirse explícitamente en la carta. Un hechizo Alterador no inflige daño por sí mismo; cualquier componente de daño lo reclasifica.
+  - Ofensivo: Su finalidad es eliminar, dañar o reducir la viabilidad de las entidades enemigas. 
+	    Nunca afecta unidades Aliadas.
 
-  - Destructor: Causa daño dentro de su área. El daño puede ser categorizado como “no amigo” (aplicable solo a unidades enemigas) o “completo”
-	  (afecta todo lo que esté dentro del área). Si el efecto se aplica específicamente a estructuras, la carta lo indicará de forma explícita.
+  - Táctico: Modifica condiciones, estados o atributos que sirvan de forma positiva al ejercito.
+	  Solo afecta unidades Aliadas.
 
-  - Neutral: Genera cambios ambientales o estados que afectan a ambos bandos de forma igualitaria. Su alcance y persistencia suelen ser superiores en escala y 
-	  están sujetos a reglas de exclusión entre hechizos neutrales.
+  - Territorial: Genera cambios ambientales o estados en el terreno que siempre afectarán a ambos bandos, usualmente de gran tamaño o globales. 
+	  Siempre si otro hechizo de rol Territorial se pone en el área de uno, el primer puesto desaparece, y el último en haberse puesto prevalece.
 
 ───────────────────────────────────────────────
 4. TIPO
