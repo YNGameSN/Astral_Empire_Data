@@ -128,11 +128,9 @@ Los tipos se definen según los Roles, influyendo directamente en cuáles estar�
 		autónomo o semiautónomo, sin embargo, no está obligado a llevar todos los valores, dependiendo de la estructura.
 
 • HECHIZOS
-  - Instantáneo: Hechizos desplegados en el mapa, que al aparecer lo hacen directamente en el lugar de aparición, poseen características como rango de efecto,
-	    duración de efecto, tiempo de refresco y daño
-  - No instantáneo: Hechizos que, una vez desplegados en el mapa, recorren una distancia, toman un tiempo de aparición, o dan una alerta antes de su llegada,
-	    poseen características como rango de efecto, duración de efecto y daño (dependiente del hechizo), además de un tiempo de aparición y el tiempo de refresco.
-
+  - Focal: Hechizos desplegados que afectan únicamente a una entidad.
+  - Zonal: Hechizos que afectan un área en específico,tienen una forma de área estándar o personalizada como atributo extra.
+  - Global: Hechizos que afectan todo el campo.
 ───────────────────────────────────────────────
 
 Toda carta debe presentarse inicialmente siguiendo el formato oficial:
