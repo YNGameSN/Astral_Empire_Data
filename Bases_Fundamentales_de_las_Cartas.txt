@@ -83,7 +83,7 @@ El rol determina cómo se relaciona con otras cartas del mismo ecosistema y cóm
   - Combate: Este rol se da cuando la estructura tiene como finalidad directa la guerra, la proyección de fuerza o la protección territorial. Son la primera línea de contacto y defensa del imperio. 
 		Su función es convertir los recursos acumulados en fuerza para el frente de batalla y las zonas de control seguro.
 
-  - Táctico: Este rol define estructuras dedicadas a la especialización, la inteligencia y la ventaja cualitativa. No suelen aportar recursos brutos ni disparar directamente, sino que habilitan tecnologías, 
+  - Táctico: Este rol define estructuras dedicadas a la especialización, la inteligencia y la ventaja cualitativa. No suelen aportar recursos brutos ni atacar directamente, sino que habilitan tecnologías, 
 		desbloquean evoluciones y otorgan sinergias que multiplican la eficiencia de las unidades Logísticas y Militares. Representan la inversión a futuro y la sofisticación del mazo.
 
 • HECHIZOS
