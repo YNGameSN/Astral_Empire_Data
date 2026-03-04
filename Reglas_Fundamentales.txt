@@ -63,6 +63,11 @@ UNIDADES
 	Si se desea aplicar un efecto o afinidad bajo condiciones distintas a las mencionadas en la afinidad oficial, deben ser especificadas estrictamente en la
 	habilidad o ataque correspondiente.
 
+  - LA METAMORFOSIS 
+	Un ser vivo que, por acción propia, cambia a otro, mantiene nombre científico. Esto puede darse por habilidades, ataques tácticos, condiciones u otros.
+	Se puede variar o no también en: Sub rasgos, Ataques, Velocidad, Tamaño, y otros atributos en general.
+	Nunca se modifican las bases fundamentales de la carta.
+
   - LA MOVILIDAD
 	La movilidad es mencionada de forma breve en la carta, sin exigir especial atención del jugador. Representa el método natural de desplazamiento de la 
 	criatura y puede funcionar como condición para ciertas habilidades.
@@ -423,6 +428,10 @@ SUB RASGOS
 	Esta carta representa una unidad integrante de la clase Cephalopoda (Ce)
 	Esta unidad puede esquivar ataques en 1%.
 
+  - Semélparos
+	Esta carta representa una unidad de comportamiento semélparo.
+	Ser vivo hereda "Cuenta regresiva": Los puntos de vida de este ser vivo pasan a ser 0 tras X segundos.
+
   -  Terrestre
 	Esta carta puede realizar sus funciones únicamente en tierra.
 	Unidad hereda "Caminar": Desplazamiento exclusivo por tierra a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
@@ -520,6 +529,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
