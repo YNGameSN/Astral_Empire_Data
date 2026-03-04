@@ -113,8 +113,8 @@ Los tipos se definen según los Roles, influyendo directamente en cuáles estar�
   (Para ser depredador o presa es necesario validar que se tiene más, si la unidad forma parte de múltiples dietas más que objetivos de los cuales se alimenta ella,
    entonces es más considerado como presa, y así en viceversa)
   - Simbionte: El tipo Simbionte abarca a todos los organismos que dependen directa o indirectamente de otros seres vivos para sobrevivir o beneficiarse, sin encajar 
-		estrictamente como presas o depredadores. Incluye las tres principales relaciones ecológicas: mutualismo, comensalismo y parasitismo.
-  (Para ser un simbionte solo se necesita mantener una relación con algún otro ser vivo jugable o no, además de no caer en un tipo depredador o presa con sentido real)
+		estrictamente como presas o depredadores. Incluye las tres principales relaciones simbióticas: mutualismo, comensalismo y parasitismo.
+  (Para ser un simbionte solo se necesita mantener una relación simbiótica con algún otro ser vivo jugable o no, además de no ser en un tipo depredador o presa con sentido real)
 
 • ESTRUCTURAS
   - Productor: Estructura activa caracterizada por generar un Output tangible tras un ciclo de tiempo determinado. Dependiendo de su Rol, este output puede variar: 
