@@ -88,13 +88,13 @@ El rol determina cómo se relaciona con otras cartas del mismo ecosistema y cóm
 
 • HECHIZOS
   - Ofensivo: Su finalidad es eliminar, dañar o reducir la viabilidad de las entidades enemigas. 
-	    Nunca afecta unidades Aliadas.
+	  Nunca afecta unidades Aliadas.
 
   - Táctico: Modifica condiciones, estados o atributos que sirvan de forma positiva al ejercito.
 	  Solo afecta unidades Aliadas.
 
-  - Territorial: Genera cambios ambientales o estados en el terreno que siempre afectarán a ambos bandos, usualmente de gran tamaño o globales. 
-	  Siempre si otro hechizo de rol Territorial se pone en el área de uno, el primer puesto desaparece, y el último en haberse puesto prevalece.
+  - Territorial: Genera cambios ambientales o estados en el terreno que siempre afectarán a ambos bandos. 
+	  Siempre si otro hechizo de rol Territorial se pone en el área de uno, el primero puesto desaparece, y el último en haberse puesto prevalece.
 
 ───────────────────────────────────────────────
 4. TIPO
@@ -129,17 +129,11 @@ Los tipos se definen según los Roles, influyendo directamente en cuáles estar�
 
 • HECHIZOS
   - Focal: Hechizos desplegados que afectan únicamente a una entidad.
-  - Zonal: Hechizos que afectan un área en específico,tienen una forma de área estándar o personalizada como atributo extra.
+  - Zonal: Hechizos que afectan un área en específico, tienen una forma de área estándar o personalizada como atributo extra.
   - Global: Hechizos que afectan todo el campo.
 ───────────────────────────────────────────────
 
 Toda carta debe presentarse inicialmente siguiendo el formato oficial:
 
 [CATEGORÍA] – [RAREZA] – [ROL] – [TIPO]
-
-Ejemplos:
-- Unidad – Raro – Soldado – Depredador
-- Estructura – Épico – Defensivo – Biológico
-- Hechizo – Ultra Épico – Destructor – No instantáneo
-
 ---
