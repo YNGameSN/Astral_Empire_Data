@@ -436,9 +436,13 @@ SUB RASGOS
 	Esta carta representa una unidad integrante de la clase Cephalopoda (Ce)
 	Esta unidad puede esquivar ataques en 1%.
 
-  - Semélparos
+  - Semélparo
 	Esta carta representa una unidad de comportamiento semélparo.
 	Ser vivo hereda "Cuenta regresiva": Los puntos de vida de este ser vivo pasan a ser 0 tras X segundos.
+
+  - Carroñero 
+	Esta carta representa una unidad que se alimenta de carroña. 
+	Unidad hereda: "Búsqueda de carroña": Permite ver cadáveres de X que padecieron en el rango de visión de la unidad por Y segundos, al consumir da la moneda Z. 
 
   -  Terrestre
 	Esta carta puede realizar sus funciones únicamente en tierra.
@@ -537,6 +541,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
