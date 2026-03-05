@@ -160,6 +160,7 @@ Descripción Breve: [Texto conciso sobre naturaleza, hábitat, dieta e impacto f
 Puntos de Vida (PV): [Entero múltiplo de 10]  
 Defensa (DEF): [Entero múltiplo de 10]  
 Movimiento: [Valor en m/s sin bonificadores externos de los parámetros promedio que recibe el sub rasgo de movimiento asignado]  
+Salto: H: [Valor en m] | V: [Valor en m] 
 Precisión: [Valor porcentual base sobre 100%]  
 Radio de Visión: [Valor entero en metros]  
 Tamaño: [XXS | XS | S | MS | M | ML | L | XL | XXL]  
@@ -223,4 +224,5 @@ Sub rasgos:
 
 Núcleo:
 [Núcleo único]
+
 
