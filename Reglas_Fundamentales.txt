@@ -81,10 +81,16 @@ UNIDADES
 		Subterráneo
 		Semiacuático
 		Aéreo
+
 	En la movilidad existen los niveles de profundidad:
 		- Superficie: Mide entre 0m y 1m en tierra, y la zona Epipelágica en agua.
 		- Mediana: Mide entre 1m y 5m en tierra, y la zona Mesopelágica en agua.
 		- Profunda: Mide 5~ en tierra, y representa la zona Batipelágica en agua.
+
+	Existe el salto en X y salto en Y, representando su capacidad de salto de alto y largo.
+	Salto: X (en metros) | Y (en metros)
+
+	Todo lo mencionado, son atributos.
 
     - LA PRECISIÓN
 	La precisión se menciona de forma breve en la carta, sin exigir atención prioritaria del jugador. Representa el porcentaje de probabilidad general de
@@ -92,6 +98,7 @@ UNIDADES
 	explícitamente alguna condición especial que modifique su precisión, o cuando una habilidad altera este valor de forma excepcional.
 	La Probabilidad de Acertar es una tirada separada de la Probabilidad de Evasión. Si el ataque falla la tirada de acierto, no hay evasión;
 	si ambas se cumplen, prevalece la evasión. La Confusión es un efecto único que redirige el fallo hacia el propio atacante.
+	Es un atributo.
 
   - EL PESO NARRATIVO
 	Las criaturas no humanas no pueden poseer un peso narrativo único que dependa de valores interpretativos propios de culturas humanas, ni pueden ser
@@ -215,6 +222,7 @@ ESTRUCTURAS
 	  Efectos y afinidades: efectos y afinidades que pueda aplicar, si sus ataques o habilidades lo permiten.
 	  Radio de visión: área de visibilidad desde la estructura en metros.
 	  Coste: Esencia, Conocimiento o Dinero requerido para construirla.
+	  Tamaño: Alto de la estructura y Ancho de la estructura en metros.
 
 	Toda estructura debe poseer también una lista de obreros del mazo actual del jugador capaces de construirla. Esta lista determina qué unidades pueden
 	realizar la edificación durante el gameplay.
@@ -529,6 +537,7 @@ TIEMPO
 		pero será revelado por lo que queda de partida.
 		Se acaba el tiempo, entonces, se hace el cálculo de puntaje de partida, gana el jugador que tenga más puntaje.
 		
+
 
 
 
