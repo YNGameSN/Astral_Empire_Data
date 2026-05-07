@@ -446,32 +446,36 @@ SUB RASGOS
 
   -  Terrestre
 	Esta carta puede realizar sus funciones únicamente en tierra.
-	Unidad hereda "Caminar": Desplazamiento exclusivo por tierra a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
+	Unidad hereda habilidad de movimiento "Caminar": Desplazamiento exclusivo por tierra a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%.
 
   -  Acuático
 	Esta carta puede realizar sus funciones únicamente en agua.
 	Unidad hereda "Nadar": Desplazamiento exclusivo por agua a Xm/s; tras Y segundos, la unidad aumenta su velocidad en Z%, siempre en una profundidad H, atacando en dirección K.
-	Unidad hereda "Profundidad": Se está a un nivel de profundidad X, donde se puede atacar a dirección Y.
+	Unidad hereda habilidad de movimiento "Profundidad": Se está a un nivel de profundidad X, donde se puede atacar a dirección Y.
 
   - Semiacuático
 	Esta carta puede realizar sus funciones solo en tierra y agua.
-	Unidad hereda "Traslación de agua a tierra": Desplazamiento mixto con velocidades Xm/s en tierra y Ym/s en agua; tras Z segundos en cualquier medio, la 
-	unidad debe regresar a su entorno H.
+	Unidad hereda habilidad de movimiento "Traslación de agua a tierra": Desplazamiento mixto con velocidades Xm/s en tierra y Ym/s en agua; tras Z segundos en su medio no originario, la 
+	unidad debe regresar a su entorno originario.
 
   - Subterráneo
 	Esta carta puede realizar sus funciones solo bajo tierra.
-	Unidad hereda "Excavar": La unidad se mantendrá bajo tierra en una profundidad X, tras Y segundos, la unidad saldrá y perderá esta habilidad hasta ser desplazada nuevamente, puede atacar a una dirección Z,
+	Unidad hereda habilidad de movimiento "Excavar": La unidad se mantendrá bajo tierra en una profundidad X, tras Y segundos, la unidad saldrá y perderá esta habilidad hasta ser desplazada nuevamente, 
+	puede atacar a una dirección Z,
 	mientras no esté activa esta habilidad, esta unidad no puede pasar a ser Invisible.
 
   - Aéreo
 	Esta carta puede realizar sus funciones únicamente en aire.
-	Unidad hereda "Volar": La unidad no puede ser atacada por ataques cuerpo a cuerpo desde tierra mientras la habilidad esté activa, ataques de largo alcance 
+	Unidad hereda habilidad de movimiento "Volar": La unidad no puede ser atacada por ataques cuerpo a cuerpo desde tierra mientras la habilidad esté activa, ataques de largo alcance 
 	pueden afectarle. Tras X segundos, la unidad se posará en tierra y perderá esta habilidad hasta ser desplazada nuevamente.
 
+  - Desplazable
+	Esta estructura posee un Ataque | Habilidad | Interacción que permite movimiento de un punto A a un punto B.
+	Esta estructura Hereda "Movimiento" : Tras la condición realizada, adquiere una velocidad de Xm/s, y la habilidad de movimiento Y.
+
   - Centro de Mando
-	Esta estructura hereda "Punto de reunión": Los obreros en campo pueden usar esta estructura para llevar los recursos y que estos, tras X segundos, estén como
-	Esencia en el apartado de la economía.
-	Esta estructura al ser destruida otorga un puntaje X de PP en un rango de 0~1, el cuál es útil para el cálculo interno del empate.
+	Esta estructura hereda "Punto de reunión": Los obreros en campo pueden usar esta estructura para llevar los recursos y que estos, tras X segundos, estén como esencia en el apartado de la economía.
+	Esta estructura al ser destruida otorga un puntaje X de PP en un rango de 0~1.
 
   - Héroe
 	Solo puedes tener una carta de este sub rasgo en campo.
