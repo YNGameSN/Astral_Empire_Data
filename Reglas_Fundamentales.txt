@@ -498,7 +498,7 @@ NÚCLEOS
   - Fungi
 	Esta carta no puede ser afectada por ningún efecto de combate.
 	Esta carta no puede ser afectada por efectos dirigidos a estructuras.
-	Indica una entidad viviente perteneciente a Fungi (Fu)
+	Indica una o varias entidades viviente pertenecientes a Fungi (Fu)
 
   -  Tecnológico
 	Esta carta no puede ser afectada por algunos efectos de combate, independientemente de la carta.
