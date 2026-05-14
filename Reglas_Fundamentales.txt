@@ -250,7 +250,7 @@ HECHIZOS
 
   - LOS EFECTOS
 	Los efectos de un hechizo se detallan en la carta con precisión técnica. Pueden incluir alteraciones de atributos, estados de combate, creación de elementos
-	efímeros en el terreno o limpieza de efectos previos. Su aplicación funciona con las mismas reglas de efectos de combate: objetivos, duración y condiciones.
+	efímeros en el terreno o limpieza de efectos previos. Su aplicación funciona con las mismas reglas de Efectos de Combate, pero también pueden aplicar Efectos Especiales.
 
 	Los hechizos no pueden:
 	  Alterar de forma permanente la identidad biológica de una unidad.  
