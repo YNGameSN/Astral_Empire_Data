@@ -32,7 +32,7 @@ Existen tres categorías fundamentales:
 ───────────────────────────────────────────────
 2. RAREZA
 
-Indica el grado de poder, singularidad y frecuencia de aparición.  
+Indica el grado de poder, singularidad y frecuencia de aparición en el entorno real.  
 Cada nivel de rareza representa un salto cualitativo en complejidad y costo.
 La definición de las rarezas se da por la interacción de la especie con el entorno, las habilidades que tiene, su cantidad cualitativa real, su impacto socio-cultural,
 la capacidad de supervivencia que posee, su inteligencia, métodos de caza / comportamiento y si sobresale por encima de otras especies de su mismo
