@@ -1,8 +1,6 @@
 
 Efectos - Imperio Astral
 
-Nota: Este documento consolida todas las reglas de efectos discutidas hasta ahora: efectos de combate (negativos), efectos de afinidad/positivos, efectos sobre estructuras, inmunidades, resistencias y evasión. No se ha inventado información nueva; todo proviene de la conversación previa y las definiciones acordadas.
-
 1) EFECTOS EN COMBATE
 ---
 Estos efectos son aplicados por ataques o habilidades y afectan unidades en combate.
@@ -196,7 +194,7 @@ Reducciones porcentuales que no anulan completamente un efecto pero disminuyen s
 --------------------------------------------
 - Para que un efecto de combate se aplique, debe estar explícitamente mencionado en el ataque o habilidad que lo provoca.
 - Muchos efectos son condicionales por tamaño o grupo (filo/clase/orden/género/especie) — estas condiciones son internas y evaluadas por el motor.
-- Si no se especifica un tamaño, se considerará todo el resto de condiciones a las que se les sea posible aplicar.
+- Si no se especifica un tamaño de criatura a la cuál se le puede aplicar el efecto, se considerará todo el resto de condiciones a las que se les sea posible aplicar.
 - Algunas habilidades pasivas pueden otorgar inmunidad o resistencia a efectos específicos.
 - Los efectos de frío y calor son aplicados globalmente según el entorno en el que se juegue.
 - Si una unidad requiere de una condición o que suceda algo específico para que active algo similar a una afinidad, pero que esta condición no es la misma que la mencionada comúnmente en la afinidad, entonces no es una afinidad, es un efecto especial de algún ataque/habilidad y no debe ser mencionado en ese apartado.
@@ -205,6 +203,7 @@ mencionadas en el efecto, entonces va en el apartado, pero si solo una parte de 
 que la criatura en sí pueda aplicarlo, solo un ataque específico, entonces no va en este apartado.
 - Los efectos en el apartado de efectos y afinidades pueden ser mencionados si en su totalidad de ataques son mencionados, ignorando si, por ejemplo, uno tiene la posibilidad de aplicarlo y el otro lo asegura aplicar.
 - Las palabras escritas, como Leve, Media, Alta, Mediano, Grande y otros, son mencionados para su identificación en descripción al usuario, en el motor, recibe datos.
+- Los efectos aplicados por unidades siempre tendrán duración fija.
 
 La correcta utilización de efectos son:
 	Sangrado por X segundos en Y% PV tras Z segundos a (Objetivo) 
